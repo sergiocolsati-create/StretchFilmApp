@@ -51,6 +51,7 @@
             this.bttnSol.TabIndex = 0;
             this.bttnSol.Text = "Solicitudes";
             this.bttnSol.UseVisualStyleBackColor = false;
+            this.bttnSol.Click += new System.EventHandler(this.bttnSol_Click);
             // 
             // bttnCotiz
             // 
@@ -62,6 +63,7 @@
             this.bttnCotiz.TabIndex = 1;
             this.bttnCotiz.Text = "Cotizaciones";
             this.bttnCotiz.UseVisualStyleBackColor = false;
+            this.bttnCotiz.Click += new System.EventHandler(this.bttnCotiz_Click);
             // 
             // bttnProv
             // 
@@ -73,6 +75,7 @@
             this.bttnProv.TabIndex = 2;
             this.bttnProv.Text = "Proveedores";
             this.bttnProv.UseVisualStyleBackColor = false;
+            this.bttnProv.Click += new System.EventHandler(this.bttnProv_Click);
             // 
             // bttnProd
             // 
@@ -84,6 +87,7 @@
             this.bttnProd.TabIndex = 3;
             this.bttnProd.Text = "Productos";
             this.bttnProd.UseVisualStyleBackColor = false;
+            this.bttnProd.Click += new System.EventHandler(this.bttnProd_Click);
             // 
             // bttnAdqui
             // 
@@ -95,6 +99,7 @@
             this.bttnAdqui.TabIndex = 4;
             this.bttnAdqui.Text = "Adquisicion";
             this.bttnAdqui.UseVisualStyleBackColor = false;
+            this.bttnAdqui.Click += new System.EventHandler(this.bttnAdqui_Click);
             // 
             // bttnFac
             // 
@@ -106,6 +111,7 @@
             this.bttnFac.TabIndex = 5;
             this.bttnFac.Text = "Facturacion";
             this.bttnFac.UseVisualStyleBackColor = false;
+            this.bttnFac.Click += new System.EventHandler(this.bttnFac_Click);
             // 
             // bttnCobra
             // 
@@ -117,6 +123,7 @@
             this.bttnCobra.TabIndex = 6;
             this.bttnCobra.Text = "Cobranza";
             this.bttnCobra.UseVisualStyleBackColor = false;
+            this.bttnCobra.Click += new System.EventHandler(this.bttnCobra_Click);
             // 
             // bttnMarg
             // 
@@ -128,6 +135,7 @@
             this.bttnMarg.TabIndex = 7;
             this.bttnMarg.Text = "Margenes";
             this.bttnMarg.UseVisualStyleBackColor = false;
+            this.bttnMarg.Click += new System.EventHandler(this.bttnMarg_Click);
             // 
             // bttnUser
             // 
@@ -139,6 +147,7 @@
             this.bttnUser.TabIndex = 8;
             this.bttnUser.Text = "Usuarios";
             this.bttnUser.UseVisualStyleBackColor = false;
+            this.bttnUser.Click += new System.EventHandler(this.bttnUser_Click);
             // 
             // bttnClien
             // 
@@ -150,6 +159,7 @@
             this.bttnClien.TabIndex = 9;
             this.bttnClien.Text = "Clientes";
             this.bttnClien.UseVisualStyleBackColor = false;
+            this.bttnClien.Click += new System.EventHandler(this.bttnClien_Click);
             // 
             // Dashboard
             // 
