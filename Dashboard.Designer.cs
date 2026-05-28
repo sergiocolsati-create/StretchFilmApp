@@ -51,6 +51,7 @@
             this.bttnSol.TabIndex = 0;
             this.bttnSol.Text = "Solicitudes";
             this.bttnSol.UseVisualStyleBackColor = false;
+            this.bttnSol.Click += new System.EventHandler(this.bttnSol_Click);
             // 
             // bttnCotiz
             // 

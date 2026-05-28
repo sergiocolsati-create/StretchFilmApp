@@ -16,5 +16,12 @@ namespace StretchFilmApp
         {
             InitializeComponent();
         }
+
+        private void bttnSol_Click(object sender, EventArgs e)
+        {
+            Solicitudes frmSolicitudes = new Solicitudes();
+            frmSolicitudes.ShowDialog();
+            
+        }
     }
 }
