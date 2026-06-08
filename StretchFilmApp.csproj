@@ -108,17 +108,35 @@
     <Compile Include="Solicitudes.Designer.cs">
       <DependentUpon>Solicitudes.cs</DependentUpon>
     </Compile>
+    <Compile Include="TARJETA-COBRANZA.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TARJETA-COBRANZA.Designer.cs">
+      <DependentUpon>TARJETA-COBRANZA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TARJETA-MARGEN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TARJETA-MARGEN.Designer.cs">
+      <DependentUpon>TARJETA-MARGEN.cs</DependentUpon>
+    </Compile>
     <Compile Include="Usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Usuarios.Designer.cs">
       <DependentUpon>Usuarios.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Cobranza.resx">
+      <DependentUpon>Cobranza.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Facturación.resx">
       <DependentUpon>Facturación.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Margenes.resx">
+      <DependentUpon>Margenes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>
@@ -132,6 +150,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TARJETA-COBRANZA.resx">
+      <DependentUpon>TARJETA-COBRANZA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TARJETA-MARGEN.resx">
+      <DependentUpon>TARJETA-MARGEN.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -144,6 +168,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Data\margenes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

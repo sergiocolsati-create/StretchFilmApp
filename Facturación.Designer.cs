@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvFacturas = new System.Windows.Forms.DataGridView();
             this.colSerie = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -79,7 +79,7 @@
             this.colMargen,
             this.colEstado,
             this.colVence});
-            this.dgvFacturas.Location = new System.Drawing.Point(15, 199);
+            this.dgvFacturas.Location = new System.Drawing.Point(27, 199);
             this.dgvFacturas.MultiSelect = false;
             this.dgvFacturas.Name = "dgvFacturas";
             this.dgvFacturas.RowHeadersVisible = false;
@@ -122,9 +122,9 @@
             // 
             this.colTotal.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.colTotal.DataPropertyName = "Total";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle1.Format = "C2";
-            this.colTotal.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle5.Format = "C2";
+            this.colTotal.DefaultCellStyle = dataGridViewCellStyle5;
             this.colTotal.HeaderText = "TOTAL";
             this.colTotal.Name = "colTotal";
             // 
@@ -132,9 +132,9 @@
             // 
             this.colSaldo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.colSaldo.DataPropertyName = "Saldo";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle2.Format = "C2";
-            this.colSaldo.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle6.Format = "C2";
+            this.colSaldo.DefaultCellStyle = dataGridViewCellStyle6;
             this.colSaldo.HeaderText = "SALDO";
             this.colSaldo.Name = "colSaldo";
             // 
@@ -142,8 +142,8 @@
             // 
             this.colMargen.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colMargen.DataPropertyName = "Margen";
-            dataGridViewCellStyle3.Format = "P0";
-            this.colMargen.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Format = "P0";
+            this.colMargen.DefaultCellStyle = dataGridViewCellStyle7;
             this.colMargen.HeaderText = "MARGEN";
             this.colMargen.Name = "colMargen";
             // 
@@ -158,14 +158,14 @@
             // 
             this.colVence.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colVence.DataPropertyName = "Vence";
-            dataGridViewCellStyle4.Format = "dd/MM/yyy";
-            this.colVence.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.Format = "dd/MM/yyy";
+            this.colVence.DefaultCellStyle = dataGridViewCellStyle8;
             this.colVence.HeaderText = "VENCE";
             this.colVence.Name = "colVence";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(761, 32);
+            this.button1.Location = new System.Drawing.Point(773, 32);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 23);
             this.button1.TabIndex = 14;
@@ -177,7 +177,7 @@
             this.flowLayoutPanel1.Controls.Add(this.panel2);
             this.flowLayoutPanel1.Controls.Add(this.panel3);
             this.flowLayoutPanel1.Controls.Add(this.panel1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(15, 93);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(27, 93);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(858, 70);
             this.flowLayoutPanel1.TabIndex = 13;
@@ -275,7 +275,7 @@
             // lblCantidadFacturas
             // 
             this.lblCantidadFacturas.AutoSize = true;
-            this.lblCantidadFacturas.Location = new System.Drawing.Point(12, 58);
+            this.lblCantidadFacturas.Location = new System.Drawing.Point(24, 58);
             this.lblCantidadFacturas.Name = "lblCantidadFacturas";
             this.lblCantidadFacturas.Size = new System.Drawing.Size(105, 13);
             this.lblCantidadFacturas.TabIndex = 12;
@@ -285,7 +285,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 32);
+            this.label1.Location = new System.Drawing.Point(24, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 13);
             this.label1.TabIndex = 11;
@@ -295,7 +295,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1046, 682);
+            this.ClientSize = new System.Drawing.Size(1070, 665);
             this.Controls.Add(this.dgvFacturas);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.flowLayoutPanel1);
