@@ -32,11 +32,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblFacturasCobranza = new System.Windows.Forms.Label();
+            this.lblEnCobranza = new System.Windows.Forms.Label();
             this.lblTotalFacturado = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.lblFacturasVencidas = new System.Windows.Forms.Label();
+            this.lblVencidas = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblTotalCobrar = new System.Windows.Forms.Label();
@@ -81,7 +81,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.lblFacturasCobranza);
+            this.panel2.Controls.Add(this.lblEnCobranza);
             this.panel2.Controls.Add(this.lblTotalFacturado);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Location = new System.Drawing.Point(3, 3);
@@ -89,15 +89,16 @@
             this.panel2.Size = new System.Drawing.Size(277, 63);
             this.panel2.TabIndex = 4;
             // 
-            // lblFacturasCobranza
+            // lblEnCobranza
             // 
-            this.lblFacturasCobranza.AutoSize = true;
-            this.lblFacturasCobranza.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFacturasCobranza.Location = new System.Drawing.Point(57, 33);
-            this.lblFacturasCobranza.Name = "lblFacturasCobranza";
-            this.lblFacturasCobranza.Size = new System.Drawing.Size(164, 13);
-            this.lblFacturasCobranza.TabIndex = 5;
-            this.lblFacturasCobranza.Text = "FACTURAS EN COBRANZA";
+            this.lblEnCobranza.AutoSize = true;
+            this.lblEnCobranza.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEnCobranza.Location = new System.Drawing.Point(131, 33);
+            this.lblEnCobranza.Name = "lblEnCobranza";
+            this.lblEnCobranza.Size = new System.Drawing.Size(14, 13);
+            this.lblEnCobranza.TabIndex = 5;
+            this.lblEnCobranza.Text = "0";
+            this.lblEnCobranza.Click += new System.EventHandler(this.lblFacturasCobranza_Click);
             // 
             // lblTotalFacturado
             // 
@@ -112,7 +113,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.Location = new System.Drawing.Point(11, 11);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(144, 13);
             this.label3.TabIndex = 3;
@@ -121,28 +122,28 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.lblFacturasVencidas);
+            this.panel3.Controls.Add(this.lblVencidas);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Location = new System.Drawing.Point(286, 3);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(277, 63);
             this.panel3.TabIndex = 6;
             // 
-            // lblFacturasVencidas
+            // lblVencidas
             // 
-            this.lblFacturasVencidas.AutoSize = true;
-            this.lblFacturasVencidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFacturasVencidas.Location = new System.Drawing.Point(104, 33);
-            this.lblFacturasVencidas.Name = "lblFacturasVencidas";
-            this.lblFacturasVencidas.Size = new System.Drawing.Size(69, 13);
-            this.lblFacturasVencidas.TabIndex = 4;
-            this.lblFacturasVencidas.Text = "VENCIDAS";
+            this.lblVencidas.AutoSize = true;
+            this.lblVencidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVencidas.Location = new System.Drawing.Point(133, 33);
+            this.lblVencidas.Name = "lblVencidas";
+            this.lblVencidas.Size = new System.Drawing.Size(14, 13);
+            this.lblVencidas.TabIndex = 4;
+            this.lblVencidas.Text = "0";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 9);
+            this.label4.Location = new System.Drawing.Point(13, 11);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 13);
             this.label4.TabIndex = 3;
@@ -162,17 +163,17 @@
             // 
             this.lblTotalCobrar.AutoSize = true;
             this.lblTotalCobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalCobrar.Location = new System.Drawing.Point(78, 33);
+            this.lblTotalCobrar.Location = new System.Drawing.Point(87, 33);
             this.lblTotalCobrar.Name = "lblTotalCobrar";
-            this.lblTotalCobrar.Size = new System.Drawing.Size(132, 13);
+            this.lblTotalCobrar.Size = new System.Drawing.Size(67, 13);
             this.lblTotalCobrar.TabIndex = 4;
-            this.lblTotalCobrar.Text = "TOTAL POR COBRAR";
+            this.lblTotalCobrar.Text = "S/0000.00";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 9);
+            this.label5.Location = new System.Drawing.Point(13, 11);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(116, 13);
             this.label5.TabIndex = 3;
@@ -180,22 +181,24 @@
             // 
             // flpCobranza
             // 
+            this.flpCobranza.AutoScroll = true;
             this.flpCobranza.Location = new System.Drawing.Point(29, 199);
             this.flpCobranza.Name = "flpCobranza";
-            this.flpCobranza.Size = new System.Drawing.Size(903, 200);
+            this.flpCobranza.Size = new System.Drawing.Size(903, 435);
             this.flpCobranza.TabIndex = 15;
             // 
             // Cobranza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1070, 665);
+            this.ClientSize = new System.Drawing.Size(959, 665);
             this.Controls.Add(this.flpCobranza);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Cobranza";
             this.Text = "Cobranza";
+            this.Load += new System.EventHandler(this.Cobranza_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -220,8 +223,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label lblFacturasCobranza;
-        private System.Windows.Forms.Label lblFacturasVencidas;
+        private System.Windows.Forms.Label lblEnCobranza;
+        private System.Windows.Forms.Label lblVencidas;
         private System.Windows.Forms.Label lblTotalCobrar;
         private System.Windows.Forms.FlowLayoutPanel flpCobranza;
     }

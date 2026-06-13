@@ -29,13 +29,15 @@
         private void InitializeComponent()
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.pnlTarjetaPlantilla = new System.Windows.Forms.Panel();
             this.lblCliente = new System.Windows.Forms.Label();
-            this.lblClienteRUC = new System.Windows.Forms.Label();
+            this.lblRuc = new System.Windows.Forms.Label();
+            this.pnlTarjetaPlantilla = new System.Windows.Forms.Panel();
+            this.pnlEstado = new System.Windows.Forms.Panel();
+            this.lblEstado = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.lblSerie = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblTotal = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,44 +47,34 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.lblVence = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.lblContacto = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnRegistrarPago = new System.Windows.Forms.Button();
             this.btnWhatsApp = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.pnlTarjetaPlantilla.SuspendLayout();
+            this.pnlEstado.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.flowLayoutPanel3.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.flowLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.lblCliente);
-            this.flowLayoutPanel1.Controls.Add(this.lblClienteRUC);
+            this.flowLayoutPanel1.Controls.Add(this.lblRuc);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(13, 14);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(827, 28);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(615, 28);
             this.flowLayoutPanel1.TabIndex = 0;
-            // 
-            // pnlTarjetaPlantilla
-            // 
-            this.pnlTarjetaPlantilla.BackColor = System.Drawing.Color.White;
-            this.pnlTarjetaPlantilla.Controls.Add(this.flowLayoutPanel2);
-            this.pnlTarjetaPlantilla.Controls.Add(this.flowLayoutPanel1);
-            this.pnlTarjetaPlantilla.Controls.Add(this.flowLayoutPanel3);
-            this.pnlTarjetaPlantilla.Location = new System.Drawing.Point(0, 0);
-            this.pnlTarjetaPlantilla.Name = "pnlTarjetaPlantilla";
-            this.pnlTarjetaPlantilla.Size = new System.Drawing.Size(856, 178);
-            this.pnlTarjetaPlantilla.TabIndex = 1;
             // 
             // lblCliente
             // 
@@ -94,15 +86,45 @@
             this.lblCliente.TabIndex = 0;
             this.lblCliente.Text = "CLIENTE";
             // 
-            // lblClienteRUC
+            // lblRuc
             // 
-            this.lblClienteRUC.AutoSize = true;
-            this.lblClienteRUC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblClienteRUC.Location = new System.Drawing.Point(3, 13);
-            this.lblClienteRUC.Name = "lblClienteRUC";
-            this.lblClienteRUC.Size = new System.Drawing.Size(78, 13);
-            this.lblClienteRUC.TabIndex = 1;
-            this.lblClienteRUC.Text = "RUC CLIENTE";
+            this.lblRuc.AutoSize = true;
+            this.lblRuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRuc.Location = new System.Drawing.Point(3, 13);
+            this.lblRuc.Name = "lblRuc";
+            this.lblRuc.Size = new System.Drawing.Size(78, 13);
+            this.lblRuc.TabIndex = 1;
+            this.lblRuc.Text = "RUC CLIENTE";
+            // 
+            // pnlTarjetaPlantilla
+            // 
+            this.pnlTarjetaPlantilla.BackColor = System.Drawing.Color.White;
+            this.pnlTarjetaPlantilla.Controls.Add(this.pnlEstado);
+            this.pnlTarjetaPlantilla.Controls.Add(this.flowLayoutPanel2);
+            this.pnlTarjetaPlantilla.Controls.Add(this.flowLayoutPanel1);
+            this.pnlTarjetaPlantilla.Controls.Add(this.flowLayoutPanel3);
+            this.pnlTarjetaPlantilla.Location = new System.Drawing.Point(0, 0);
+            this.pnlTarjetaPlantilla.Name = "pnlTarjetaPlantilla";
+            this.pnlTarjetaPlantilla.Size = new System.Drawing.Size(856, 178);
+            this.pnlTarjetaPlantilla.TabIndex = 1;
+            // 
+            // pnlEstado
+            // 
+            this.pnlEstado.Controls.Add(this.lblEstado);
+            this.pnlEstado.Location = new System.Drawing.Point(636, 14);
+            this.pnlEstado.Name = "pnlEstado";
+            this.pnlEstado.Size = new System.Drawing.Size(198, 26);
+            this.pnlEstado.TabIndex = 3;
+            // 
+            // lblEstado
+            // 
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstado.Location = new System.Drawing.Point(69, 6);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(51, 13);
+            this.lblEstado.TabIndex = 4;
+            this.lblEstado.Text = "ESTADO";
             // 
             // flowLayoutPanel2
             // 
@@ -126,16 +148,6 @@
             this.panel1.Size = new System.Drawing.Size(200, 50);
             this.panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "SERIE";
-            // 
             // lblSerie
             // 
             this.lblSerie.AutoSize = true;
@@ -145,6 +157,16 @@
             this.lblSerie.Size = new System.Drawing.Size(44, 13);
             this.lblSerie.TabIndex = 3;
             this.lblSerie.Text = "SERIE";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "SERIE";
             // 
             // panel2
             // 
@@ -236,17 +258,6 @@
             this.label6.TabIndex = 2;
             this.label6.Text = "VENCE";
             // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.Controls.Add(this.btnRegistrarPago);
-            this.flowLayoutPanel3.Controls.Add(this.btnWhatsApp);
-            this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(13, 134);
-            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(827, 30);
-            this.flowLayoutPanel3.TabIndex = 2;
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.Control;
@@ -256,16 +267,6 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(818, 23);
             this.panel5.TabIndex = 7;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 5);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "CONTACTO:";
             // 
             // lblContacto
             // 
@@ -277,6 +278,27 @@
             this.lblContacto.TabIndex = 5;
             this.lblContacto.Text = "Correo y teléfono";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 5);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(69, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "CONTACTO:";
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.Controls.Add(this.btnRegistrarPago);
+            this.flowLayoutPanel3.Controls.Add(this.btnWhatsApp);
+            this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(13, 134);
+            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(827, 30);
+            this.flowLayoutPanel3.TabIndex = 2;
+            // 
             // btnRegistrarPago
             // 
             this.btnRegistrarPago.Location = new System.Drawing.Point(3, 3);
@@ -285,6 +307,7 @@
             this.btnRegistrarPago.TabIndex = 0;
             this.btnRegistrarPago.Text = "Registrar Pago";
             this.btnRegistrarPago.UseVisualStyleBackColor = true;
+            this.btnRegistrarPago.Click += new System.EventHandler(this.btnRegistrarPago_Click);
             // 
             // btnWhatsApp
             // 
@@ -302,9 +325,12 @@
             this.Controls.Add(this.pnlTarjetaPlantilla);
             this.Name = "TARJETA_COBRANZA";
             this.Size = new System.Drawing.Size(858, 178);
+            this.Load += new System.EventHandler(this.TARJETA_COBRANZA_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             this.pnlTarjetaPlantilla.ResumeLayout(false);
+            this.pnlEstado.ResumeLayout(false);
+            this.pnlEstado.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -314,9 +340,9 @@
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.flowLayoutPanel3.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.flowLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -325,7 +351,7 @@
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Label lblCliente;
-        private System.Windows.Forms.Label lblClienteRUC;
+        private System.Windows.Forms.Label lblRuc;
         private System.Windows.Forms.Panel pnlTarjetaPlantilla;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Panel panel1;
@@ -346,5 +372,7 @@
         private System.Windows.Forms.Label lblContacto;
         private System.Windows.Forms.Button btnRegistrarPago;
         private System.Windows.Forms.Button btnWhatsApp;
+        private System.Windows.Forms.Panel pnlEstado;
+        private System.Windows.Forms.Label lblEstado;
     }
 }

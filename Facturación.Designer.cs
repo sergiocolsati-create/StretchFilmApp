@@ -28,21 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.dgvFacturas = new System.Windows.Forms.DataGridView();
-            this.colSerie = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colVendedora = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSaldo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colMargen = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colEstado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colVence = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnNuevaFactura = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblTotalFacturado = new System.Windows.Forms.Label();
@@ -53,124 +39,25 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblVencido = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblCantidadFacturas = new System.Windows.Forms.Label();
+            this.lblTotalFacturas = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvFacturas)).BeginInit();
+            this.dgvFacturas = new System.Windows.Forms.DataGridView();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvFacturas)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgvFacturas
+            // btnNuevaFactura
             // 
-            this.dgvFacturas.AllowUserToAddRows = false;
-            this.dgvFacturas.AllowUserToDeleteRows = false;
-            this.dgvFacturas.AllowUserToResizeColumns = false;
-            this.dgvFacturas.AllowUserToResizeRows = false;
-            this.dgvFacturas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvFacturas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colSerie,
-            this.colCliente,
-            this.colVendedora,
-            this.colTipo,
-            this.colTotal,
-            this.colSaldo,
-            this.colMargen,
-            this.colEstado,
-            this.colVence});
-            this.dgvFacturas.Location = new System.Drawing.Point(27, 199);
-            this.dgvFacturas.MultiSelect = false;
-            this.dgvFacturas.Name = "dgvFacturas";
-            this.dgvFacturas.RowHeadersVisible = false;
-            this.dgvFacturas.Size = new System.Drawing.Size(1012, 426);
-            this.dgvFacturas.TabIndex = 15;
-            // 
-            // colSerie
-            // 
-            this.colSerie.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colSerie.DataPropertyName = "Serie";
-            this.colSerie.HeaderText = "SERIE";
-            this.colSerie.Name = "colSerie";
-            this.colSerie.Width = 85;
-            // 
-            // colCliente
-            // 
-            this.colCliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colCliente.DataPropertyName = "Cliente";
-            this.colCliente.HeaderText = "CLIENTE";
-            this.colCliente.Name = "colCliente";
-            this.colCliente.Width = 180;
-            // 
-            // colVendedora
-            // 
-            this.colVendedora.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colVendedora.DataPropertyName = "Vendedora";
-            this.colVendedora.HeaderText = "VENDEDORA";
-            this.colVendedora.Name = "colVendedora";
-            this.colVendedora.Width = 130;
-            // 
-            // colTipo
-            // 
-            this.colTipo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colTipo.DataPropertyName = "Tipo";
-            this.colTipo.HeaderText = "TIPO";
-            this.colTipo.Name = "colTipo";
-            this.colTipo.Width = 110;
-            // 
-            // colTotal
-            // 
-            this.colTotal.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colTotal.DataPropertyName = "Total";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle5.Format = "C2";
-            this.colTotal.DefaultCellStyle = dataGridViewCellStyle5;
-            this.colTotal.HeaderText = "TOTAL";
-            this.colTotal.Name = "colTotal";
-            // 
-            // colSaldo
-            // 
-            this.colSaldo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colSaldo.DataPropertyName = "Saldo";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle6.Format = "C2";
-            this.colSaldo.DefaultCellStyle = dataGridViewCellStyle6;
-            this.colSaldo.HeaderText = "SALDO";
-            this.colSaldo.Name = "colSaldo";
-            // 
-            // colMargen
-            // 
-            this.colMargen.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colMargen.DataPropertyName = "Margen";
-            dataGridViewCellStyle7.Format = "P0";
-            this.colMargen.DefaultCellStyle = dataGridViewCellStyle7;
-            this.colMargen.HeaderText = "MARGEN";
-            this.colMargen.Name = "colMargen";
-            // 
-            // colEstado
-            // 
-            this.colEstado.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colEstado.DataPropertyName = "Estado";
-            this.colEstado.HeaderText = "ESTADO";
-            this.colEstado.Name = "colEstado";
-            // 
-            // colVence
-            // 
-            this.colVence.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colVence.DataPropertyName = "Vence";
-            dataGridViewCellStyle8.Format = "dd/MM/yyy";
-            this.colVence.DefaultCellStyle = dataGridViewCellStyle8;
-            this.colVence.HeaderText = "VENCE";
-            this.colVence.Name = "colVence";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(773, 32);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Nueva Factura";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnNuevaFactura.Location = new System.Drawing.Point(773, 32);
+            this.btnNuevaFactura.Name = "btnNuevaFactura";
+            this.btnNuevaFactura.Size = new System.Drawing.Size(100, 23);
+            this.btnNuevaFactura.TabIndex = 14;
+            this.btnNuevaFactura.Text = "Nueva Factura";
+            this.btnNuevaFactura.UseVisualStyleBackColor = true;
+            this.btnNuevaFactura.Click += new System.EventHandler(this.button1_Click);
             // 
             // flowLayoutPanel1
             // 
@@ -272,14 +159,14 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "VENCIDO";
             // 
-            // lblCantidadFacturas
+            // lblTotalFacturas
             // 
-            this.lblCantidadFacturas.AutoSize = true;
-            this.lblCantidadFacturas.Location = new System.Drawing.Point(24, 58);
-            this.lblCantidadFacturas.Name = "lblCantidadFacturas";
-            this.lblCantidadFacturas.Size = new System.Drawing.Size(105, 13);
-            this.lblCantidadFacturas.TabIndex = 12;
-            this.lblCantidadFacturas.Text = "Cantidad de facturas";
+            this.lblTotalFacturas.AutoSize = true;
+            this.lblTotalFacturas.Location = new System.Drawing.Point(24, 58);
+            this.lblTotalFacturas.Name = "lblTotalFacturas";
+            this.lblTotalFacturas.Size = new System.Drawing.Size(105, 13);
+            this.lblTotalFacturas.TabIndex = 12;
+            this.lblTotalFacturas.Text = "Cantidad de facturas";
             // 
             // label1
             // 
@@ -291,19 +178,36 @@
             this.label1.TabIndex = 11;
             this.label1.Text = "FACTURACIÓN";
             // 
+            // dgvFacturas
+            // 
+            this.dgvFacturas.AllowUserToAddRows = false;
+            this.dgvFacturas.AllowUserToDeleteRows = false;
+            this.dgvFacturas.AllowUserToResizeColumns = false;
+            this.dgvFacturas.AllowUserToResizeRows = false;
+            this.dgvFacturas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvFacturas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvFacturas.Location = new System.Drawing.Point(27, 179);
+            this.dgvFacturas.MultiSelect = false;
+            this.dgvFacturas.Name = "dgvFacturas";
+            this.dgvFacturas.ReadOnly = true;
+            this.dgvFacturas.RowHeadersVisible = false;
+            this.dgvFacturas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvFacturas.Size = new System.Drawing.Size(846, 407);
+            this.dgvFacturas.TabIndex = 15;
+            // 
             // Facturación
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1070, 665);
             this.Controls.Add(this.dgvFacturas);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnNuevaFactura);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.lblCantidadFacturas);
+            this.Controls.Add(this.lblTotalFacturas);
             this.Controls.Add(this.label1);
             this.Name = "Facturación";
             this.Text = "Facturación";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvFacturas)).EndInit();
+            this.Load += new System.EventHandler(this.Facturación_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -311,24 +215,14 @@
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvFacturas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dgvFacturas;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colSerie;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colCliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colVendedora;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTipo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTotal;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colSaldo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colMargen;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colEstado;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colVence;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnNuevaFactura;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblTotalFacturado;
@@ -339,7 +233,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblVencido;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblCantidadFacturas;
+        private System.Windows.Forms.Label lblTotalFacturas;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dgvFacturas;
     }
 }

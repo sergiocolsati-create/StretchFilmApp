@@ -1,0 +1,8 @@
+﻿FACT-001,RucosSAC,,CONTADO,40.00,0.00,25.0,Pagada,—
+FACT-002,Distribuidora Lima Norte S.A.C.,vendepapa,CREDITO,375.00,375.00,25.0,Emitida,19/06/2026
+FACT-003,Test S.A.C,vendepapa,CONTADO,4275.00,1775.00,25.0,Parcial,—
+FACT-004,Empaques Perú E.I.R.L.,vendepapa,CONTADO,7125.00,2125.00,25.0,Parcial,—
+FACT-005,Exportaciones del Pacifico S.A.C.,Ana García,CREDITO,4000,4000,25.0,Emitida,16/06/2026
+FACT-006,Exportaciones del Pacifico S.A.C.,vendepapa,CREDITO,256.20,150.00,25%,Parcial,16/06/2026
+FACT-007,Test S.A.C,Ana García,CONTADO,62.50,62.50,25.0,Emitida,—
+FACT-008,Industrias Textiles Andinas S.R.L.,Ana García,CREDITO,1068.75,508.75,25%,Vencida,01/06/2026

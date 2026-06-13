@@ -24,7 +24,7 @@ namespace StretchFilmApp
         }
         private void CargarMargenesDesdeTXT()
         {
-            string ruta = Path.Combine(Application.StartupPath, "Data", "margenes.txt");
+            string ruta = Path.Combine(Application.StartupPath, "Data2", "margenes.txt");
             if (!File.Exists(ruta))
             {
                 MessageBox.Show("No se encuentra el archivo: " + ruta);
