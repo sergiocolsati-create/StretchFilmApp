@@ -1,0 +1,6 @@
+﻿Ana Garcia,ana.garcia@stretchfilm.pe,Activo,5,16/5/2026 11:22 p. m.,stretch2026
+Lucia Torres,lucia.torres@stretchfilm.pe,Inactivo,12,16/5/2026 11:22 p. m.,stretch2026
+Rosa Quispe,rosa.quispe@stretchfilm.pe,Inactivo,4,16/5/2026 11:22 p. m.,stretch2026
+Maria Leon,maria.leon@stretchfilm.pe,Inactivo,10,16/5/2026 11:22 p. m.,stretch2026
+Carmen Soto,carmen.soto@stretchfilm.pe,Inactivo,0,16/5/2026 11:22 p. m.,stretch2026
+Diana Flores,diana.flores@stretchfilm.pe,Inactivo,1,16/5/2026 11:22 p. m.,stretch2026

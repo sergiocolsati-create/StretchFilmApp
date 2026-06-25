@@ -1,6 +1,56 @@
-#486c6,RucosSAc,Stretch Film 25µm x 500m – Uso diario,1,S/.40.00,25.0%,S/.8,APROBADA,20/5/2026
-#48fbf,Distribuidora Lima Norte S.A.C.,Stretch Film 20µm alta resistencia,60,S/.6.25,25.0%,S/.75,APROBADA,31/5/2026
-#ec048,Test S.A.C,Stretch Film 25µm carga paletizada,120,S/.35.63,25.0%,S/.855,APROBADA,17/5/2026
-#0bd2d,Empaques Perú E.I.R.L.,Stretch Film Industrial alta tracción,200,S/.35.63,25.0%,S/.1425,APROBADA,17/5/2026
-#43eff,Exportaciones del Pacífico S.A.C.,Stretch Film 25µm x 500m,40,S/.6.25,25.0%,S/.50,APROBADA,30/5/2026
-#b7019,Industrias Textiles Andinas S.R.L.,Stretch Film 25µm,30,S/.35.63,25.0%,S/.214,APROBADA,17/5/2026
+﻿#69ef2,Textiles La Union S.R.L.,Film Estirable Premium 17µm,80,33.84,28.0,758.02,APROBADA,7/6/2026
+#5356d,Corporacion Inca S.A.,Rollo de Polietileno Burbuja 1.5m x 100m,10,19.16,35.0,67.06,RECHAZADA,7/9/2026
+#9bc0f,Industrias Textiles Andinas S.R.L.,Film Estirable Premium 17µm,20,30.93,35.0,216.51,APROBADA,17/10/2026
+#47bec,Agroexportaciones Tal S.A.C.,Cinta de Embalaje 48mm x 100m,60,24.53,22.0,323.80,APROBADA,20/12/2026
+#2eeb3,Exportaciones del Pacifico S.A.C.,Film Antiestatico 30µm,300,31.80,25.0,2385.00,APROBADA,27/7/2026
+#e3cef,Distribuidora Lima Norte S.A.C.,Stretch Film 20µm x 500m,10,28.61,20.0,57.22,RECHAZADA,18/3/2026
+#25801,Plasticos Peruanos S.A.C.,Film Antiestatico 30µm,60,10.37,20.0,124.44,PENDIENTE,24/4/2026
+#49f7a,Metalurgica Centro S.A.C.,Stretch Film Manual 18µm,120,9.79,25.0,293.70,VENCIDA,23/10/2026
+#1f75e,Calzados Trujillo E.I.R.L.,Stretch Film 25µm estandar,80,14.54,25.0,290.80,PENDIENTE,7/4/2026
+#f6c1e,Vidrios y Cristales Peru S.A.,Stretch Film Industrial alta traccion,150,20.26,30.0,911.70,APROBADA,26/5/2026
+#0b53b,Distribuidora Lima Norte S.A.C.,Stretch Film 25µm estandar,120,17.56,28.0,590.02,VENCIDA,26/6/2026
+#3dc07,Vidrios y Cristales Peru S.A.,Stretch Film 25µm x 500m,120,11.80,28.0,396.48,APROBADA,7/3/2026
+#85163,Agroexportaciones Tal S.A.C.,Rollo de Polietileno Burbuja 1.5m x 100m,20,25.99,25.0,129.95,APROBADA,15/11/2026
+#16f19,Conservas del Mar S.A.C.,Stretch Film 20µm x 500m,60,43.40,35.0,911.40,PENDIENTE,3/5/2026
+#1f825,Quimica Industrial Lima S.A.,Stretch Film 25µm x 500m,40,13.18,25.0,131.80,RECHAZADA,18/11/2026
+#b7ce2,Vidrios y Cristales Peru S.A.,Film Estirable Premium 17µm,30,24.81,20.0,148.86,RECHAZADA,8/3/2026
+#55756,Industrias Textiles Andinas S.R.L.,Stretch Film 25µm carga paletizada,80,27.24,28.0,610.18,VENCIDA,17/8/2026
+#0b247,Nueva Empresa S.A.C.,Stretch Film Negro 30µm,200,31.22,28.0,1748.32,APROBADA,27/10/2026
+#340c2,Calzados Trujillo E.I.R.L.,Stretch Film Industrial 23µm,200,36.96,22.0,1626.24,PENDIENTE,23/10/2026
+#20873,Quimica Industrial Lima S.A.,Stretch Film 25µm carga paletizada,200,27.67,30.0,1660.20,APROBADA,13/6/2026
+#900a5,Distribuidora Lima Norte S.A.C.,Stretch Film Manual 18µm,200,28.05,30.0,1683.00,APROBADA,23/10/2026
+#f3240,Vidrios y Cristales Peru S.A.,Stretch Film 25µm x 500m,30,31.58,22.0,208.43,RECHAZADA,20/11/2026
+#94c0e,Distribuidora Lima Norte S.A.C.,Stretch Film Industrial 23µm,80,42.61,20.0,681.76,PENDIENTE,19/4/2026
+#8ee98,Corporacion Inca S.A.,Stretch Film 25µm estandar,60,22.75,20.0,273.00,PENDIENTE,15/12/2026
+#0669c,Agro Export Inca S.A.C.,Stretch Film Industrial alta traccion,40,39.40,22.0,346.72,APROBADA,8/8/2026
+#ac69c,Textiles La Union S.R.L.,Rollo de Polietileno Burbuja 1.5m x 100m,10,14.19,22.0,31.22,RECHAZADA,23/7/2026
+#1695d,Corporacion Almacenes S.A.,Cinta de Embalaje 48mm x 100m,100,14.70,30.0,441.00,APROBADA,22/12/2026
+#91a9d,Plasticos Peruanos S.A.C.,Stretch Film Industrial alta traccion,80,30.45,35.0,852.60,APROBADA,8/11/2026
+#bbc70,Logistica Callao E.I.R.L.,Stretch Film Negro 30µm,200,38.24,30.0,2294.40,RECHAZADA,14/11/2026
+#cb037,Agro Export Inca S.A.C.,Stretch Film 25µm carga paletizada,150,40.69,25.0,1525.88,APROBADA,7/5/2026
+#6b023,Frigorifico del Sur S.A.,Stretch Film Manual 18µm,80,23.92,22.0,420.99,PENDIENTE,4/6/2026
+#3d7a9,Nueva Empresa S.A.C.,Stretch Film 25µm x 500m,100,29.06,35.0,1017.10,RECHAZADA,1/4/2026
+#d336f,Distribuidora San Miguel E.I.R.L.,Rollo de Polietileno Burbuja 1.5m x 100m,60,31.36,28.0,526.85,VENCIDA,11/12/2026
+#e3d42,Textiles La Union S.R.L.,Stretch Film 25µm x 500m,10,18.86,22.0,41.49,PENDIENTE,1/10/2026
+#fb31d,Agro Export Inca S.A.C.,Film Antiestatico 30µm,10,22.67,20.0,45.34,PENDIENTE,6/9/2026
+#d3b50,Quimica Industrial Lima S.A.,Stretch Film 25µm x 500m,40,33.51,30.0,402.12,APROBADA,28/5/2026
+#7b2d2,Maderas del Oriente S.R.L.,Stretch Film Manual 18µm,40,15.33,28.0,171.70,APROBADA,19/12/2026
+#75d81,Agroexportaciones Tal S.A.C.,Stretch Film 20µm alta resistencia,80,39.31,30.0,943.44,APROBADA,18/12/2026
+#6e5b9,Agroexportaciones Tal S.A.C.,Film Estirable Premium 17µm,100,16.61,35.0,581.35,APROBADA,9/7/2026
+#aa3ac,Corporacion Inca S.A.,Cinta de Embalaje 48mm x 100m,150,14.87,22.0,490.71,RECHAZADA,21/9/2026
+#deacb,Maderas del Oriente S.R.L.,Stretch Film Industrial alta traccion,150,20.05,20.0,601.50,APROBADA,1/8/2026
+#bde10,Nueva Empresa S.A.C.,Film Termorretractil 600mm x 200m,60,36.69,28.0,616.39,APROBADA,28/7/2026
+#8c980,Alimentos Andinos S.A.C.,Film Estirable Premium 17µm,1,9.65,25.0,2.41,PENDIENTE,7/6/2026
+#e3194,Exportaciones del Pacifico S.A.C.,Stretch Film 25µm x 500m,30,12.06,35.0,126.63,APROBADA,4/9/2026
+#c14e0,Inversiones Sur S.A.,Stretch Film 25µm x 500m,300,44.93,20.0,2695.80,APROBADA,25/7/2026
+#1d948,Agro Export Inca S.A.C.,Film Antiestatico 30µm,60,27.27,28.0,458.14,APROBADA,21/11/2026
+#dfe40,Textiles La Union S.R.L.,Stretch Film Manual 18µm,80,33.63,20.0,538.08,PENDIENTE,10/4/2026
+#46a59,Plasticos Peruanos S.A.C.,Stretch Film 25µm carga paletizada,30,15.79,35.0,165.79,PENDIENTE,1/4/2026
+#0b287,Ferreteria El Tornillo,Stretch Film Industrial alta traccion,80,8.08,28.0,180.99,APROBADA,7/8/2026
+#27eb4,Agroexportaciones Tal S.A.C.,Stretch Film 25µm x 500m,40,26.56,20.0,212.48,RECHAZADA,6/5/2026
+#fb665,Ferreteria El Tornillo,Film Estirable Premium 17µm,40,32.32,28.0,361.98,APROBADA,12/10/2026
+#1b78f,Distribuidora San Miguel E.I.R.L.,Film Antiestatico 30µm,200,28.81,30.0,1728.60,APROBADA,21/3/2026
+#6938d,Distribuidora Lima Norte S.A.C.,Stretch Film Industrial 23µm,40,23.17,35.0,324.38,APROBADA,3/10/2026
+#29d26,Empaques Peru E.I.R.L.,Stretch Film Negro 30µm,40,10.24,35.0,143.36,APROBADA,21/6/2026
+#a38fd,Alimentos Andinos S.A.C.,Stretch Film 20µm x 500m,1,44.38,22.0,9.76,APROBADA,22/8/2026
+#ffd1a,Alimentos Andinos S.A.C.,Film Termorretractil 600mm x 200m,150,13.76,25.0,516.00,VENCIDA,28/8/2026

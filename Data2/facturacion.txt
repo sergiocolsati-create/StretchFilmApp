@@ -1,8 +1,52 @@
-﻿FACT-001,RucosSAC,,CONTADO,40.00,0.00,25.0,Pagada,—
-FACT-002,Distribuidora Lima Norte S.A.C.,vendepapa,CREDITO,375.00,375.00,25.0,Emitida,19/06/2026
-FACT-003,Test S.A.C,vendepapa,CONTADO,4275.00,1775.00,25.0,Parcial,—
-FACT-004,Empaques Perú E.I.R.L.,vendepapa,CONTADO,7125.00,2125.00,25.0,Parcial,—
-FACT-005,Exportaciones del Pacifico S.A.C.,Ana García,CREDITO,4000,4000,25.0,Emitida,16/06/2026
-FACT-006,Exportaciones del Pacifico S.A.C.,vendepapa,CREDITO,256.20,150.00,25%,Parcial,16/06/2026
-FACT-007,Test S.A.C,Ana García,CONTADO,62.50,62.50,25.0,Emitida,—
-FACT-008,Industrias Textiles Andinas S.R.L.,Ana García,CREDITO,1068.75,508.75,25%,Vencida,01/06/2026
+﻿FACT-001,Ferreteria El Tornillo,Maria Leon,CREDITO,4456.51,3024.03,25.0,Parcial,18/05/2026
+FACT-002,Quimica Industrial Lima S.A.,Ana Garcia,CREDITO,3747.13,2194.89,25.0,Parcial,02/11/2026
+FACT-003,Plasticos Peruanos S.A.C.,Rosa Quispe,CREDITO,997.50,997.50,25.0,Vencida,28/05/2026
+FACT-004,Corporacion Inca S.A.,vendepapa,CONTADO,1973.90,0.00,25.0,Pagada,—
+FACT-005,Ferreteria El Tornillo,vendepapa,CONTADO,3702.88,1009.98,25.0,Parcial,24/12/2026
+FACT-006,Frigorifico del Sur S.A.,vendepapa,CONTADO,3174.32,3174.32,25.0,Vencida,21/04/2026
+FACT-007,Ferreteria El Tornillo,Maria Leon,CREDITO,1467.72,1467.72,25.0,Vencida,10/05/2026
+FACT-008,Agro Export Inca S.A.C.,Maria Leon,CREDITO,1639.40,1639.40,25.0,Emitida,28/09/2026
+FACT-009,Ferreteria El Tornillo,Maria Leon,CREDITO,2123.86,2123.86,25.0,Emitida,23/07/2026
+FACT-010,Bebidas Tropicales S.A.,vendepapa,CONTADO,6852.08,2137.70,25.0,Parcial,15/06/2026
+FACT-011,Inversiones Sur S.A.,Lucia Torres,CREDITO,4993.10,2360.74,25.0,Parcial,09/08/2026
+FACT-012,Calzados Trujillo E.I.R.L.,Ana Garcia,CONTADO,2236.02,2236.02,25.0,Vencida,15/05/2026
+FACT-013,Calzados Trujillo E.I.R.L.,Ana Garcia,CREDITO,7114.69,4602.10,25.0,Parcial,14/05/2026
+FACT-014,Corporacion Inca S.A.,vendepapa,CONTADO,5657.40,0.00,25.0,Pagada,—
+FACT-015,Plasticos Peruanos S.A.C.,Lucia Torres,CREDITO,6486.83,6486.83,25.0,Vencida,08/05/2026
+FACT-016,Maderas del Oriente S.R.L.,vendepapa,CONTADO,5449.10,5449.10,25.0,Vencida,19/05/2026
+FACT-017,Metalurgica Centro S.A.C.,Rosa Quispe,CREDITO,3700.04,2333.85,25.0,Parcial,24/05/2026
+FACT-018,Metalurgica Centro S.A.C.,Maria Leon,CONTADO,2156.51,0.00,25.0,Pagada,—
+FACT-019,Industrias Textiles Andinas S.R.L.,Lucia Torres,CREDITO,7706.94,3408.96,25.0,Parcial,18/04/2026
+FACT-020,Bebidas Tropicales S.A.,Maria Leon,CONTADO,593.31,593.31,25.0,Vencida,23/04/2026
+FACT-021,Quimica Industrial Lima S.A.,vendepapa,CONTADO,188.45,0.00,25.0,Pagada,—
+FACT-022,Metalurgica Centro S.A.C.,Ana Garcia,CONTADO,3571.75,0.00,25.0,Pagada,—
+FACT-023,Metalurgica Centro S.A.C.,Maria Leon,CONTADO,3962.30,3962.30,25.0,Vencida,02/05/2026
+FACT-024,Comercial Los Olivos S.A.C.,Ana Garcia,CONTADO,328.08,0.00,25.0,Pagada,—
+FACT-025,Logistica Callao E.I.R.L.,Rosa Quispe,CREDITO,5563.21,1434.34,25.0,Parcial,14/10/2026
+FACT-026,Distribuidora San Miguel E.I.R.L.,Ana Garcia,CREDITO,3229.63,3229.63,25.0,Emitida,03/04/2026
+FACT-027,Textiles La Union S.R.L.,Ana Garcia,CONTADO,4113.22,4113.22,25.0,Vencida,02/05/2026
+FACT-028,Industrias Textiles Andinas S.R.L.,Lucia Torres,CONTADO,7600.32,0.00,25.0,Pagada,—
+FACT-029,Nueva Empresa S.A.C.,Lucia Torres,CREDITO,7714.33,7714.33,25.0,Vencida,16/04/2026
+FACT-030,Empaques Peru E.I.R.L.,vendepapa,CONTADO,6521.15,0.00,25.0,Pagada,—
+FACT-031,Exportaciones del Pacifico S.A.C.,Ana Garcia,CONTADO,3372.66,0.00,25.0,Pagada,—
+FACT-032,Calzados Trujillo E.I.R.L.,Ana Garcia,CONTADO,6217.76,6217.76,25.0,Vencida,15/05/2026
+FACT-033,Industrias Textiles Andinas S.R.L.,vendepapa,CREDITO,4844.27,4844.27,25.0,Emitida,23/06/2026
+FACT-034,Ferreteria El Tornillo,Maria Leon,CONTADO,5888.51,5888.51,25.0,Vencida,07/05/2026
+FACT-035,Exportaciones del Pacifico S.A.C.,Lucia Torres,CREDITO,5486.82,5486.82,25.0,Emitida,14/05/2026
+FACT-036,Corporacion Almacenes S.A.,Maria Leon,CONTADO,1117.34,0.00,25.0,Pagada,—
+FACT-037,Maderas del Oriente S.R.L.,Maria Leon,CONTADO,7323.36,7323.36,25.0,Vencida,01/06/2026
+FACT-038,Nueva Empresa S.A.C.,Rosa Quispe,CREDITO,2539.66,986.52,25.0,Parcial,14/10/2026
+FACT-039,Inversiones Sur S.A.,vendepapa,CONTADO,3181.55,0.00,25.0,Pagada,—
+FACT-040,Logistica Callao E.I.R.L.,Lucia Torres,CREDITO,4670.92,4670.92,25.0,Emitida,18/05/2026
+FACT-041,Plasticos Peruanos S.A.C.,vendepapa,CONTADO,3663.30,3663.30,25.0,Vencida,22/06/2026
+FACT-042,Calzados Trujillo E.I.R.L.,Lucia Torres,CREDITO,2154.00,2154.00,25.0,Vencida,24/05/2026
+FACT-043,Nueva Empresa S.A.C.,Lucia Torres,CONTADO,4597.56,4597.56,25.0,Vencida,28/06/2026
+FACT-044,Textiles La Union S.R.L.,Ana Garcia,CONTADO,5645.25,0.00,25.0,Pagada,—
+FACT-045,Quimica Industrial Lima S.A.,Lucia Torres,CONTADO,5986.65,0.00,25.0,Pagada,—
+FACT-046,Textiles La Union S.R.L.,Maria Leon,CONTADO,7561.05,1626.74,25.0,Parcial,22/09/2026
+FACT-047,Exportaciones del Pacifico S.A.C.,Rosa Quispe,CONTADO,7021.12,3689.31,25.0,Parcial,17/12/2026
+FACT-048,Comercial Los Olivos S.A.C.,Ana Garcia,CREDITO,1012.24,1012.24,25.0,Emitida,18/04/2026
+FACT-049,Corporacion Inca S.A.,Lucia Torres,CONTADO,6007.65,0.00,25.0,Pagada,—
+FACT-050,Textiles La Union S.R.L.,Rosa Quispe,CREDITO,7114.00,5459.66,25.0,Parcial,21/11/2026
+FACT-051,Logistica Callao E.I.R.L.,Lucia Torres,CREDITO,3191.50,3191.50,25.0,Emitida,17/06/2026
+FACT-052,Corporacion Inca S.A.,Maria Leon,CREDITO,5044.39,5044.39,25.0,Emitida,07/12/2026

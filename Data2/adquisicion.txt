@@ -1,0 +1,40 @@
+﻿Ferreteria El Tornillo,Plastificados del Norte S.A.C.,1519.55,ENVIADA,26/4/2026
+Agro Export Inca S.A.C.,Termoencogibles Peru,1538.33,ENVIADA,1/8/2026
+Calzados Trujillo E.I.R.L.,Envasoluz S.R.L.,1655.28,CREADA,24/10/2026
+Exportaciones del Pacifico S.A.C.,ProtecPack E.I.R.L.,990.21,RECIBIDA,14/12/2026
+Conservas del Mar S.A.C.,ElectroPack S.R.L.,2629.01,ENVIADA,7/11/2026
+Nueva Empresa S.A.C.,Adhesivos del Sur,2223.35,CREADA,16/9/2026
+Logistica Callao E.I.R.L.,Esquineros Andinos S.A.C.,3280.46,RECIBIDA,28/6/2026
+Distribuidora Lima Norte S.A.C.,Envasoluz S.R.L.,3281.64,ENVIADA,26/8/2026
+Nueva Empresa S.A.C.,Plastificados del Norte S.A.C.,3088.76,CREADA,25/7/2026
+Vidrios y Cristales Peru S.A.,Plasticos Industriales REY,3473.83,RECIBIDA,2/5/2026
+Ferreteria El Tornillo,Termoencogibles Peru,3524.44,RECIBIDA,23/12/2026
+Nueva Empresa S.A.C.,PolyPack Industrial E.I.R.L.,973.14,ENVIADA,18/8/2026
+Quimica Industrial Lima S.A.,Termoencogibles Peru,343.13,CREADA,9/5/2026
+Agroexportaciones Tal S.A.C.,ElectroPack S.R.L.,508.08,RECIBIDA,9/10/2026
+Logistica Callao E.I.R.L.,Esquineros Andinos S.A.C.,1375.75,CREADA,26/5/2026
+Metalurgica Centro S.A.C.,Soluciones de Embalaje S.A.C.,1357.55,CREADA,20/8/2026
+Vidrios y Cristales Peru S.A.,Soluciones de Embalaje S.A.C.,3912.67,CREADA,23/5/2026
+Plasticos Peruanos S.A.C.,Plasticos Industriales REY,2508.45,CREADA,4/3/2026
+Maderas del Oriente S.R.L.,Esquineros Andinos S.A.C.,438.09,CREADA,15/12/2026
+Industrias Textiles Andinas S.R.L.,Envasoluz S.R.L.,1841.30,ENVIADA,28/5/2026
+Distribuidora San Miguel E.I.R.L.,Plasticos Industriales REY,3984.19,CREADA,9/7/2026
+Bebidas Tropicales S.A.,Plasticos Industriales REY,426.80,ENVIADA,27/6/2026
+Calzados Trujillo E.I.R.L.,ElectroPack S.R.L.,2938.99,RECIBIDA,22/12/2026
+Empaques Peru E.I.R.L.,ElectroPack S.R.L.,1552.94,ENVIADA,25/9/2026
+Plasticos Peruanos S.A.C.,Plastificados del Norte S.A.C.,1465.32,ENVIADA,18/12/2026
+Empaques Peru E.I.R.L.,Soluciones de Embalaje S.A.C.,1693.64,RECIBIDA,5/5/2026
+Inversiones Sur S.A.,Soluciones de Embalaje S.A.C.,1577.41,ENVIADA,22/5/2026
+Empaques Peru E.I.R.L.,Soluciones de Embalaje S.A.C.,2307.01,RECIBIDA,13/7/2026
+Bebidas Tropicales S.A.,ElectroPack S.R.L.,2881.38,CREADA,15/4/2026
+Ferreteria El Tornillo,Esquineros Andinos S.A.C.,993.84,ENVIADA,19/6/2026
+Nueva Empresa S.A.C.,Soluciones de Embalaje S.A.C.,1642.54,ENVIADA,24/10/2026
+Calzados Trujillo E.I.R.L.,Soluciones de Embalaje S.A.C.,3452.89,CREADA,14/7/2026
+Corporacion Inca S.A.,Termoencogibles Peru,988.16,ENVIADA,19/9/2026
+Distribuidora Lima Norte S.A.C.,Soluciones de Embalaje S.A.C.,1461.75,ENVIADA,27/11/2026
+Corporacion Inca S.A.,Soluciones de Embalaje S.A.C.,2221.32,CREADA,5/3/2026
+Agro Export Inca S.A.C.,Adhesivos del Sur,336.94,ENVIADA,3/4/2026
+Industrias Textiles Andinas S.R.L.,Plastificados del Norte S.A.C.,1338.71,CREADA,27/7/2026
+Vidrios y Cristales Peru S.A.,Plastificados del Norte S.A.C.,210.44,ENVIADA,25/4/2026
+Agroexportaciones Tal S.A.C.,Envasoluz S.R.L.,2418.71,CREADA,21/12/2026
+Textiles La Union S.R.L.,Adhesivos del Sur,390.58,RECIBIDA,1/7/2026

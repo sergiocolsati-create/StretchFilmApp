@@ -10,7 +10,7 @@ namespace StretchFilmApp
     /// Formulario que muestra los márgenes de precio como tarjetas
     /// y permite registrar nuevos márgenes desde un panel inferior.
     /// </summary>
-    public partial class Margenes : Form
+    public partial class    Margenes : Form
     {
         string ruta = Path.Combine(Application.StartupPath, "Data2", "margenes.txt");
 

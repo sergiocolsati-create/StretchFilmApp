@@ -1,10 +1,50 @@
-﻿Stretch Film Industrial 23µm,PolyPack Industrial E.I.R.L.,18,40,920.0,40% máx,20/5/2026,30/12/2026
-Stretch Film 20µm x 500m,Plastificados del Norte S.A.C.,18,28,914.0,28% máx,16/5/2026,activo
-Film Estirable Premium 17µm,Envasoluz S.R.L.,22,35,1120.0,35% máx,10/5/2026,10/8/2026
-Rollo de Polietileno Burbuja 1.5m x 100m,ProtecPack E.I.R.L.,16,30,980.0,30% máx,15/5/2026,15/9/2026
-Cinta de Embalaje 48mm x 100m,Adhesivos del Sur,25,45,1850.0,45% máx,1/4/2026,1/10/2026
-Esquinero de Cartón 50x50x5mm,Esquineros Andinos S.A.C.,10,18,540.0,18% máx,20/5/2026,activo
-Paleta Plástica 1200x1000mm,Plásticos Industriales REY,12,22,760.0,22% máx,5/6/2026,activo
-Film Termorretráctil 600mm x 200m,Termoencogibles Perú,28,50,2100.0,50% máx,1/6/2026,30/11/2026
-Stretch Film Negro 25µm,Soluciones de Embalaje S.A.C.,20,35,1500.0,35% máx,1/7/2026,31/12/2026
-Film Antiestático 30µm,ElectroPack S.R.L.,30,45,2200.0,45% máx,15/6/2026,activo
+﻿Stretch Film 20µm alta resistencia,Maderas del Oriente S.R.L.,16,40,824.7,INACTIVO,11/3/2026,activo
+Film Estirable Premium 17µm,Ferreteria El Tornillo,20,31,701.6,activo,7/6/2026,activo
+Rollo de Polietileno Burbuja 1.5m x 100m,Frigorifico del Sur S.A.,19,42,628.6,INACTIVO,3/4/2026,7/9/2026
+Film Estirable Premium 17µm,Corporacion Almacenes S.A.,14,39,2012.7,INACTIVO,6/6/2026,16/8/2026
+Film Estirable Premium 17µm,Agroexportaciones Tal S.A.C.,10,27,878.8,activo,6/4/2026,activo
+Stretch Film Manual 18µm,Ferreteria El Tornillo,13,30,1910.4,activo,26/4/2026,11/12/2026
+Paleta Plastica 1200x1000mm,Corporacion Inca S.A.,30,47,1682.8,INACTIVO,28/5/2026,activo
+Stretch Film Industrial 23µm,Empaques Peru E.I.R.L.,27,47,1171.0,INACTIVO,23/4/2026,activo
+Stretch Film 20µm x 500m,Bebidas Tropicales S.A.,19,31,1172.3,activo,13/5/2026,3/11/2026
+Stretch Film Negro 25µm,Inversiones Sur S.A.,21,30,801.2,activo,18/6/2026,2/10/2026
+Film Termorretractil 600mm x 200m,Bebidas Tropicales S.A.,28,45,1230.2,INACTIVO,2/3/2026,12/8/2026
+Stretch Film 25µm x 500m,Comercial Los Olivos S.A.C.,12,29,1900.2,INACTIVO,15/4/2026,activo
+Stretch Film 20µm alta resistencia,Ferreteria El Tornillo,18,42,1411.7,activo,13/5/2026,2/9/2026
+Film Estirable Premium 17µm,Maderas del Oriente S.R.L.,11,35,1500.3,activo,7/3/2026,activo
+Stretch Film Automatico 23µm,Vidrios y Cristales Peru S.A.,10,31,694.4,activo,11/4/2026,activo
+Stretch Film Automatico 23µm,Distribuidora Lima Norte S.A.C.,27,42,1849.9,INACTIVO,22/5/2026,activo
+Stretch Film Industrial 23µm,Maderas del Oriente S.R.L.,28,46,2030.3,INACTIVO,20/3/2026,20/9/2026
+Film Antiestatico 30µm,Exportaciones del Pacifico S.A.C.,16,37,655.1,activo,7/3/2026,activo
+Stretch Film Industrial alta traccion,Comercial Los Olivos S.A.C.,21,33,1963.5,INACTIVO,16/6/2026,activo
+Stretch Film 25µm x 500m,Empaques Peru E.I.R.L.,13,38,870.1,INACTIVO,11/4/2026,13/8/2026
+Rollo Polietileno 2m x 100m,Alimentos Andinos S.A.C.,15,33,1304.3,activo,7/3/2026,activo
+Paleta Plastica 1200x1000mm,Industrias Textiles Andinas S.R.L.,28,37,1414.2,activo,5/6/2026,15/11/2026
+Film Estirable Premium 17µm,Agroexportaciones Tal S.A.C.,20,33,1339.1,activo,9/4/2026,14/12/2026
+Stretch Film 25µm estandar,Exportaciones del Pacifico S.A.C.,19,30,1332.7,INACTIVO,6/5/2026,3/10/2026
+Stretch Film 25µm estandar,Empaques Peru E.I.R.L.,14,24,1173.4,INACTIVO,24/5/2026,activo
+Stretch Film Negro 30µm,Agro Export Inca S.A.C.,10,29,1455.6,activo,18/4/2026,activo
+Paleta Plastica 1200x1000mm,Inversiones Sur S.A.,15,23,2150.9,INACTIVO,8/3/2026,16/8/2026
+Film Antiestatico 30µm,Empaques Peru E.I.R.L.,25,33,2098.8,INACTIVO,20/6/2026,activo
+Esquinero de Carton 50x50x5mm,Nueva Empresa S.A.C.,19,35,2076.0,INACTIVO,14/3/2026,activo
+Film Antiestatico 30µm,Bebidas Tropicales S.A.,24,45,1695.8,activo,13/5/2026,10/9/2026
+Rollo Polietileno 2m x 100m,Agro Export Inca S.A.C.,22,31,807.0,activo,24/6/2026,activo
+Film Estirable Premium 17µm,Corporacion Inca S.A.,20,37,1337.3,activo,10/4/2026,activo
+Cinta de Embalaje 48mm x 100m,Conservas del Mar S.A.C.,22,36,523.4,INACTIVO,18/3/2026,9/11/2026
+Stretch Film 25µm estandar,Logistica Callao E.I.R.L.,17,31,667.4,activo,1/5/2026,activo
+Rollo Polietileno 2m x 100m,Corporacion Inca S.A.,21,35,806.8,INACTIVO,1/6/2026,activo
+Paleta Plastica 1200x1000mm,Calzados Trujillo E.I.R.L.,19,35,1680.7,activo,8/6/2026,activo
+Esquinero de Carton 50x50x5mm,Corporacion Almacenes S.A.,12,25,2006.2,INACTIVO,12/5/2026,activo
+Cinta de Embalaje 48mm x 100m,Empaques Peru E.I.R.L.,13,35,1027.0,INACTIVO,2/3/2026,5/11/2026
+Stretch Film Negro 30µm,Exportaciones del Pacifico S.A.C.,15,35,1162.4,activo,7/6/2026,activo
+Film Antiestatico 30µm,Conservas del Mar S.A.C.,23,43,2031.8,INACTIVO,25/4/2026,activo
+Stretch Film Industrial 23µm,Agro Export Inca S.A.C.,18,43,1464.9,activo,1/4/2026,activo
+Esquinero de Carton 50x50x5mm,Vidrios y Cristales Peru S.A.,24,41,1538.5,activo,24/3/2026,activo
+Stretch Film 25µm x 500m,Agroexportaciones Tal S.A.C.,24,35,2136.5,INACTIVO,16/4/2026,21/12/2026
+Cinta de Embalaje 48mm x 100m,Maderas del Oriente S.R.L.,21,40,2148.5,INACTIVO,28/5/2026,activo
+Stretch Film Manual 18µm,Industrias Textiles Andinas S.R.L.,14,33,784.1,INACTIVO,8/6/2026,activo
+Stretch Film Automatico 23µm,Ferreteria El Tornillo,21,32,1676.3,activo,17/6/2026,10/11/2026
+Cinta de Embalaje 48mm x 100m,Distribuidora San Miguel E.I.R.L.,17,40,1073.1,INACTIVO,23/3/2026,activo
+Rollo de Polietileno Burbuja 1.5m x 100m,Textiles La Union S.R.L.,14,34,1691.5,INACTIVO,22/6/2026,19/9/2026
+Stretch Film 20µm x 500m,Comercial Los Olivos S.A.C.,27,51,1738.3,INACTIVO,18/5/2026,11/10/2026
+Stretch Film Automatico 23µm,Plasticos Peruanos S.A.C.,14,27,2169.7,INACTIVO,25/5/2026,1/10/2026

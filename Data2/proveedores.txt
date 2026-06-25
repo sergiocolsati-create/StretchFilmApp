@@ -1,0 +1,28 @@
+﻿Plastificados del Norte S.A.C.,20414124196,Jorge Mendoza,948115719,ventas0@proveedor.pe,1,Inactivo
+PolyPack Industrial E.I.R.L.,20871209515,Sofia Pena,918420006,ventas1@proveedor.pe,2,Inactivo
+Envasoluz S.R.L.,20124597395,Carla Rios,941240655,ventas2@proveedor.pe,3,Activo
+ProtecPack E.I.R.L.,20902816095,Jorge Mendoza,918700386,ventas3@proveedor.pe,4,Inactivo
+Adhesivos del Sur,20211612225,Sofia Pena,962183151,ventas4@proveedor.pe,5,Activo
+Esquineros Andinos S.A.C.,20254278785,Jorge Mendoza,915629239,ventas5@proveedor.pe,6,Activo
+Plasticos Industriales REY,20789537606,Carla Rios,963652104,ventas6@proveedor.pe,7,Inactivo
+Termoencogibles Peru,20394195143,Papayon,910297997,ventas7@proveedor.pe,8,Activo
+Soluciones de Embalaje S.A.C.,20434061584,Jorge Mendoza,971760847,ventas8@proveedor.pe,9,Activo
+ElectroPack S.R.L.,20406870453,Jorge Mendoza,958828402,ventas9@proveedor.pe,10,Activo
+Plastificados del Norte S.A.C.,20421223604,Sofia Pena,973613928,ventas10@proveedor.pe,11,Activo
+PolyPack Industrial E.I.R.L.,20124984240,Carla Rios,940955018,ventas11@proveedor.pe,12,Activo
+Envasoluz S.R.L.,20511517448,Carla Rios,960740034,ventas12@proveedor.pe,13,Activo
+ProtecPack E.I.R.L.,20830098366,Hugo Salas,918243345,ventas13@proveedor.pe,14,Activo
+Adhesivos del Sur,20220169244,Jorge Mendoza,912631615,ventas14@proveedor.pe,15,Inactivo
+Esquineros Andinos S.A.C.,20574852152,Carla Rios,940271156,ventas15@proveedor.pe,16,Activo
+Plasticos Industriales REY,20635438779,Jorge Mendoza,911623032,ventas16@proveedor.pe,17,Inactivo
+Termoencogibles Peru,20792900712,Jorge Mendoza,956242240,ventas17@proveedor.pe,18,Inactivo
+Soluciones de Embalaje S.A.C.,20331495808,Luis Vega,991183788,ventas18@proveedor.pe,19,Activo
+ElectroPack S.R.L.,20114023856,Jorge Mendoza,970724787,ventas19@proveedor.pe,20,Activo
+Plastificados del Norte S.A.C.,20614471455,Jorge Mendoza,972848859,ventas20@proveedor.pe,21,Activo
+PolyPack Industrial E.I.R.L.,20241295877,Carla Rios,952783844,ventas21@proveedor.pe,22,Inactivo
+Envasoluz S.R.L.,20969595011,Sofia Pena,948044258,ventas22@proveedor.pe,23,Inactivo
+ProtecPack E.I.R.L.,20916298158,Jorge Mendoza,947278247,ventas23@proveedor.pe,24,Activo
+Adhesivos del Sur,20251965462,Sofia Pena,942908405,ventas24@proveedor.pe,25,Inactivo
+Esquineros Andinos S.A.C.,20194577712,Papayon,922310759,ventas25@proveedor.pe,26,Activo
+Plasticos Industriales REY,20716961243,Jorge Mendoza,910672709,ventas26@proveedor.pe,27,Inactivo
+Termoencogibles Peru,20792136600,Hugo Salas,930815754,ventas27@proveedor.pe,28,Activo

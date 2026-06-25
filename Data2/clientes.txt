@@ -1,0 +1,25 @@
+﻿Industrias Textiles Andinas S.R.L.,20227904006,Credito,Inactivo,0,994716008
+Exportaciones del Pacifico S.A.C.,20443043868,Contado,Pendiente,1,994901921
+Distribuidora San Miguel E.I.R.L.,20639572182,Contado,Pendiente,0,961062348
+Corporacion Inca S.A.,20649565454,Credito,Activo,0,933661343
+Plasticos Peruanos S.A.C.,20794923749,Credito,Pendiente,1,965904093
+Textiles La Union S.R.L.,20210205473,Credito,Inactivo,0,971625209
+Ferreteria El Tornillo,20339749960,Credito,Pendiente,1,942641583
+Inversiones Sur S.A.,20745351751,Contado,Activo,0,976951737
+Agroexportaciones Tal S.A.C.,20767313473,Credito,Activo,1,975015368
+Distribuidora Lima Norte S.A.C.,20697600698,Credito,Inactivo,0,990393705
+Empaques Peru E.I.R.L.,20551631864,Contado,Activo,0,914991217
+Corporacion Almacenes S.A.,20941140765,Contado,Inactivo,1,946659914
+Nueva Empresa S.A.C.,20714791075,Contado,Inactivo,0,992938314
+Agro Export Inca S.A.C.,20688208069,Credito,Inactivo,0,975884747
+Comercial Los Olivos S.A.C.,20884410270,Credito,Pendiente,0,989473268
+Frigorifico del Sur S.A.,20933838458,Credito,Inactivo,0,958326842
+Logistica Callao E.I.R.L.,20924757551,Contado,Inactivo,0,978824638
+Alimentos Andinos S.A.C.,20627104586,Contado,Inactivo,1,946492367
+Vidrios y Cristales Peru S.A.,20906407983,Contado,Activo,0,946562985
+Maderas del Oriente S.R.L.,20930080574,Contado,Pendiente,1,923450083
+Quimica Industrial Lima S.A.,20729771961,Contado,Activo,0,980907266
+Conservas del Mar S.A.C.,20573622146,Credito,Pendiente,0,941758420
+Calzados Trujillo E.I.R.L.,20357627256,Credito,Activo,1,959289925
+Bebidas Tropicales S.A.,20102721764,Credito,Pendiente,0,965301150
+Metalurgica Centro S.A.C.,20759496827,Credito,Pendiente,0,924688675

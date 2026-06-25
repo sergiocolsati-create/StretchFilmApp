@@ -1,7 +1,56 @@
-#5f0373,Nueva Empresa S.A.C.,Stretch Film 25µm estándar,300,EMAIL,EN_PROCESO,18/5/2026
-#a15b48,Exportaciones del Pacífico S.A.C.,Stretch Film Negro 30µm,80,WHATSAPP,PENDIENTE,18/5/2026
-#99cd1e,Test S.A.C,Stretch Film Industrial 23µm,150,TELEFONO,PENDIENTE,18/5/2026
-#6e135b,Exportaciones del Pacífico S.A.C.,Stretch Film 25µm x 500m,40,WEB,PENDIENTE,17/5/2026
-#b0efb8,Corporación Almacenes S.A.,Stretch Film Industrial alta tracción,200,EMAIL,PENDIENTE,17/5/2026
-#a4b573,Empaques Perú E.I.R.L.,Stretch Film 20µm alta resistencia,60,PRESENCIAL,PENDIENTE,17/5/2026
-#162209,Distribuidora Lima Norte S.A.C.,Stretch Film 25µm estándar,300,EMAIL,EN_PROCESO,17/5/2026
+﻿#0fa6c8,Distribuidora San Miguel E.I.R.L.,Stretch Film 25µm x 500m,60,EMAIL,EN_PROCESO,12/8/2026
+#299e49,Nueva Empresa S.A.C.,Film Termorretractil 600mm x 200m,150,EMAIL,EN_PROCESO,1/8/2026
+#f3dfc8,Corporacion Almacenes S.A.,Stretch Film Industrial alta traccion,100,EMAIL,EN_PROCESO,28/9/2026
+#7413df,Vidrios y Cristales Peru S.A.,Film Antiestatico 30µm,120,PRESENCIAL,PENDIENTE,5/10/2026
+#8c9fcd,Inversiones Sur S.A.,Cinta de Embalaje 48mm x 100m,30,WEB,EN_PROCESO,7/7/2026
+#fb68fe,Agroexportaciones Tal S.A.C.,Stretch Film 20µm x 500m,20,WHATSAPP,EN_PROCESO,17/10/2026
+#ae3e8e,Agro Export Inca S.A.C.,Film Estirable Premium 17µm,250,EMAIL,EN_PROCESO,6/9/2026
+#b36d4e,Bebidas Tropicales S.A.,Stretch Film Industrial alta traccion,30,TELEFONO,EN_PROCESO,1/4/2026
+#67318b,Industrias Textiles Andinas S.R.L.,Stretch Film Industrial alta traccion,200,PRESENCIAL,PENDIENTE,5/3/2026
+#47f492,Empaques Peru E.I.R.L.,Stretch Film Automatico 23µm,200,PRESENCIAL,EN_PROCESO,14/5/2026
+#dc46c0,Plasticos Peruanos S.A.C.,Rollo de Polietileno Burbuja 1.5m x 100m,500,PRESENCIAL,EN_PROCESO,4/9/2026
+#0fa9ea,Distribuidora San Miguel E.I.R.L.,Stretch Film 20µm x 500m,80,TELEFONO,PENDIENTE,4/10/2026
+#6dae72,Comercial Los Olivos S.A.C.,Stretch Film Manual 18µm,200,WHATSAPP,PENDIENTE,18/9/2026
+#1e6f04,Exportaciones del Pacifico S.A.C.,Stretch Film 25µm estandar,250,WHATSAPP,PENDIENTE,21/11/2026
+#5c8dd2,Ferreteria El Tornillo,Rollo de Polietileno Burbuja 1.5m x 100m,150,WHATSAPP,PENDIENTE,13/7/2026
+#fd9e5a,Textiles La Union S.R.L.,Stretch Film 20µm alta resistencia,40,TELEFONO,EN_PROCESO,17/10/2026
+#36702e,Comercial Los Olivos S.A.C.,Stretch Film 25µm x 500m,150,PRESENCIAL,EN_PROCESO,21/8/2026
+#b5b638,Agro Export Inca S.A.C.,Film Estirable Premium 17µm,500,WHATSAPP,PENDIENTE,18/12/2026
+#4383d5,Bebidas Tropicales S.A.,Stretch Film 25µm estandar,200,TELEFONO,EN_PROCESO,4/3/2026
+#a829a5,Metalurgica Centro S.A.C.,Stretch Film 20µm alta resistencia,300,WHATSAPP,PENDIENTE,9/7/2026
+#013709,Distribuidora San Miguel E.I.R.L.,Stretch Film 20µm x 500m,100,TELEFONO,EN_PROCESO,4/4/2026
+#e1ca6e,Conservas del Mar S.A.C.,Film Estirable Premium 17µm,200,TELEFONO,EN_PROCESO,14/4/2026
+#9b1d09,Conservas del Mar S.A.C.,Stretch Film 20µm alta resistencia,150,TELEFONO,EN_PROCESO,23/8/2026
+#da0a61,Distribuidora Lima Norte S.A.C.,Film Termorretractil 600mm x 200m,500,EMAIL,EN_PROCESO,24/4/2026
+#4b90d4,Textiles La Union S.R.L.,Stretch Film Manual 18µm,30,EMAIL,PENDIENTE,12/9/2026
+#450c84,Nueva Empresa S.A.C.,Stretch Film 25µm carga paletizada,50,WEB,PENDIENTE,8/3/2026
+#8a4251,Industrias Textiles Andinas S.R.L.,Stretch Film Negro 30µm,150,WEB,EN_PROCESO,21/11/2026
+#107f17,Agroexportaciones Tal S.A.C.,Stretch Film 20µm alta resistencia,250,PRESENCIAL,EN_PROCESO,22/11/2026
+#78a6bb,Plasticos Peruanos S.A.C.,Film Antiestatico 30µm,300,WEB,EN_PROCESO,15/10/2026
+#65d4f0,Alimentos Andinos S.A.C.,Rollo de Polietileno Burbuja 1.5m x 100m,120,PRESENCIAL,EN_PROCESO,12/11/2026
+#29b843,Calzados Trujillo E.I.R.L.,Stretch Film 25µm carga paletizada,500,EMAIL,PENDIENTE,1/11/2026
+#1cc532,Ferreteria El Tornillo,Cinta de Embalaje 48mm x 100m,300,PRESENCIAL,EN_PROCESO,5/9/2026
+#65999b,Empaques Peru E.I.R.L.,Film Estirable Premium 17µm,60,TELEFONO,PENDIENTE,5/9/2026
+#db505a,Ferreteria El Tornillo,Film Termorretractil 600mm x 200m,250,EMAIL,EN_PROCESO,18/5/2026
+#b2b964,Textiles La Union S.R.L.,Stretch Film 20µm x 500m,30,PRESENCIAL,PENDIENTE,20/12/2026
+#32c893,Inversiones Sur S.A.,Stretch Film Industrial 23µm,30,TELEFONO,EN_PROCESO,12/10/2026
+#beb222,Frigorifico del Sur S.A.,Stretch Film 25µm x 500m,150,PRESENCIAL,PENDIENTE,26/10/2026
+#adaafc,Metalurgica Centro S.A.C.,Stretch Film Negro 30µm,60,WHATSAPP,PENDIENTE,11/5/2026
+#bdc64e,Ferreteria El Tornillo,Rollo de Polietileno Burbuja 1.5m x 100m,120,WHATSAPP,EN_PROCESO,24/12/2026
+#a3a8e8,Conservas del Mar S.A.C.,Film Termorretractil 600mm x 200m,40,WEB,EN_PROCESO,5/11/2026
+#389ecc,Quimica Industrial Lima S.A.,Stretch Film Negro 30µm,50,TELEFONO,PENDIENTE,1/11/2026
+#3f6dba,Calzados Trujillo E.I.R.L.,Stretch Film 20µm alta resistencia,250,WEB,EN_PROCESO,2/9/2026
+#4adffa,Bebidas Tropicales S.A.,Stretch Film Industrial 23µm,20,TELEFONO,EN_PROCESO,1/3/2026
+#a06e8b,Metalurgica Centro S.A.C.,Stretch Film 25µm estandar,250,EMAIL,EN_PROCESO,3/11/2026
+#4a7e65,Calzados Trujillo E.I.R.L.,Stretch Film 25µm estandar,150,EMAIL,PENDIENTE,23/7/2026
+#308d15,Distribuidora San Miguel E.I.R.L.,Stretch Film Manual 18µm,100,PRESENCIAL,PENDIENTE,18/11/2026
+#baf8fa,Inversiones Sur S.A.,Film Antiestatico 30µm,120,TELEFONO,EN_PROCESO,27/7/2026
+#fb8e6b,Exportaciones del Pacifico S.A.C.,Stretch Film Automatico 23µm,120,WHATSAPP,PENDIENTE,9/11/2026
+#d29f2a,Bebidas Tropicales S.A.,Stretch Film 25µm carga paletizada,60,WHATSAPP,PENDIENTE,16/8/2026
+#58c360,Conservas del Mar S.A.C.,Stretch Film 20µm alta resistencia,80,WHATSAPP,PENDIENTE,15/6/2026
+#68f4ab,Ferreteria El Tornillo,Stretch Film 25µm carga paletizada,150,PRESENCIAL,PENDIENTE,21/9/2026
+#444411,Alimentos Andinos S.A.C.,Stretch Film Manual 18µm,300,PRESENCIAL,PENDIENTE,9/7/2026
+#4e5515,Textiles La Union S.R.L.,Stretch Film Industrial 23µm,60,PRESENCIAL,EN_PROCESO,22/5/2026
+#97b2ed,Agro Export Inca S.A.C.,Stretch Film Automatico 23µm,200,WEB,PENDIENTE,5/8/2026
+#013b8a,Plasticos Peruanos S.A.C.,Film Termorretractil 600mm x 200m,150,EMAIL,EN_PROCESO,25/3/2026
+#d6577f,Textiles La Union S.R.L.,Film Estirable Premium 17µm,50,EMAIL,EN_PROCESO,7/8/2026
