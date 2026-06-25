@@ -76,11 +76,23 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditarMargen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarMargen.Designer.cs">
+      <DependentUpon>EditarMargen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Facturación.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Facturación.Designer.cs">
       <DependentUpon>Facturación.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistorialPagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistorialPagos.Designer.cs">
+      <DependentUpon>HistorialPagos.cs</DependentUpon>
     </Compile>
     <Compile Include="Margenes.cs">
       <SubType>Form</SubType>
@@ -88,11 +100,25 @@
     <Compile Include="Margenes.Designer.cs">
       <DependentUpon>Margenes.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModificarFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarFactura.Designer.cs">
+      <DependentUpon>ModificarFactura.cs</DependentUpon>
+    </Compile>
     <Compile Include="NuevaFactura.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NuevaFactura.Designer.cs">
       <DependentUpon>NuevaFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoMargen.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="NuevoMargen.Designer.cs">
+      <DependentUpon>NuevoMargen.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Productos.cs">
       <SubType>Form</SubType>
@@ -145,14 +171,27 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditarMargen.resx">
+      <DependentUpon>EditarMargen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Facturación.resx">
       <DependentUpon>Facturación.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistorialPagos.resx">
+      <DependentUpon>HistorialPagos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Margenes.resx">
       <DependentUpon>Margenes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModificarFactura.resx">
+      <DependentUpon>ModificarFactura.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NuevaFactura.resx">
       <DependentUpon>NuevaFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoMargen.resx">
+      <DependentUpon>NuevoMargen.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>
@@ -190,14 +229,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Data2\cobranza.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Data2\facturacion.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Data2\margenes.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Data2\pagos.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

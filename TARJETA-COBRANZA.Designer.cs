@@ -52,7 +52,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnRegistrarPago = new System.Windows.Forms.Button();
-            this.btnWhatsApp = new System.Windows.Forms.Button();
+            this.btnHistorial = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.pnlTarjetaPlantilla.SuspendLayout();
             this.pnlEstado.SuspendLayout();
@@ -107,6 +107,7 @@
             this.pnlTarjetaPlantilla.Name = "pnlTarjetaPlantilla";
             this.pnlTarjetaPlantilla.Size = new System.Drawing.Size(856, 178);
             this.pnlTarjetaPlantilla.TabIndex = 1;
+            this.pnlTarjetaPlantilla.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlTarjetaPlantilla_Paint);
             // 
             // pnlEstado
             // 
@@ -291,7 +292,7 @@
             // flowLayoutPanel3
             // 
             this.flowLayoutPanel3.Controls.Add(this.btnRegistrarPago);
-            this.flowLayoutPanel3.Controls.Add(this.btnWhatsApp);
+            this.flowLayoutPanel3.Controls.Add(this.btnHistorial);
             this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel3.Location = new System.Drawing.Point(13, 134);
             this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
@@ -309,14 +310,15 @@
             this.btnRegistrarPago.UseVisualStyleBackColor = true;
             this.btnRegistrarPago.Click += new System.EventHandler(this.btnRegistrarPago_Click);
             // 
-            // btnWhatsApp
+            // btnHistorial
             // 
-            this.btnWhatsApp.Location = new System.Drawing.Point(111, 3);
-            this.btnWhatsApp.Name = "btnWhatsApp";
-            this.btnWhatsApp.Size = new System.Drawing.Size(102, 23);
-            this.btnWhatsApp.TabIndex = 1;
-            this.btnWhatsApp.Text = "WhatsApp";
-            this.btnWhatsApp.UseVisualStyleBackColor = true;
+            this.btnHistorial.Location = new System.Drawing.Point(111, 3);
+            this.btnHistorial.Name = "btnHistorial";
+            this.btnHistorial.Size = new System.Drawing.Size(102, 23);
+            this.btnHistorial.TabIndex = 2;
+            this.btnHistorial.Text = "Historial";
+            this.btnHistorial.UseVisualStyleBackColor = true;
+            this.btnHistorial.Click += new System.EventHandler(this.btnHistorial_Click);
             // 
             // TARJETA_COBRANZA
             // 
@@ -371,8 +373,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblContacto;
         private System.Windows.Forms.Button btnRegistrarPago;
-        private System.Windows.Forms.Button btnWhatsApp;
         private System.Windows.Forms.Panel pnlEstado;
         private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.Button btnHistorial;
     }
 }

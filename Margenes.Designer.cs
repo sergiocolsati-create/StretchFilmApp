@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.flpMargenes = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnNuevoMargen = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -61,11 +62,22 @@
             this.flpMargenes.Size = new System.Drawing.Size(964, 484);
             this.flpMargenes.TabIndex = 3;
             // 
+            // btnNuevoMargen
+            // 
+            this.btnNuevoMargen.Location = new System.Drawing.Point(869, 32);
+            this.btnNuevoMargen.Name = "btnNuevoMargen";
+            this.btnNuevoMargen.Size = new System.Drawing.Size(122, 23);
+            this.btnNuevoMargen.TabIndex = 4;
+            this.btnNuevoMargen.Text = "Nuevo Margen";
+            this.btnNuevoMargen.UseVisualStyleBackColor = true;
+            this.btnNuevoMargen.Click += new System.EventHandler(this.btnNuevoMargen_Click);
+            // 
             // Margenes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1023, 606);
+            this.Controls.Add(this.btnNuevoMargen);
             this.Controls.Add(this.flpMargenes);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -82,5 +94,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.FlowLayoutPanel flpMargenes;
+        private System.Windows.Forms.Button btnNuevoMargen;
     }
 }

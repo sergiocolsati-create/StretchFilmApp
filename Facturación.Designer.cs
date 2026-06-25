@@ -42,6 +42,8 @@
             this.lblTotalFacturas = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvFacturas = new System.Windows.Forms.DataGridView();
+            this.btnModificarFactura = new System.Windows.Forms.Button();
+            this.btnEliminarFactura = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -51,9 +53,9 @@
             // 
             // btnNuevaFactura
             // 
-            this.btnNuevaFactura.Location = new System.Drawing.Point(773, 32);
+            this.btnNuevaFactura.Location = new System.Drawing.Point(1022, 91);
             this.btnNuevaFactura.Name = "btnNuevaFactura";
-            this.btnNuevaFactura.Size = new System.Drawing.Size(100, 23);
+            this.btnNuevaFactura.Size = new System.Drawing.Size(113, 23);
             this.btnNuevaFactura.TabIndex = 14;
             this.btnNuevaFactura.Text = "Nueva Factura";
             this.btnNuevaFactura.UseVisualStyleBackColor = true;
@@ -64,9 +66,9 @@
             this.flowLayoutPanel1.Controls.Add(this.panel2);
             this.flowLayoutPanel1.Controls.Add(this.panel3);
             this.flowLayoutPanel1.Controls.Add(this.panel1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(27, 93);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(27, 91);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(858, 70);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(858, 81);
             this.flowLayoutPanel1.TabIndex = 13;
             // 
             // panel2
@@ -76,18 +78,19 @@
             this.panel2.Controls.Add(this.label3);
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(277, 63);
+            this.panel2.Size = new System.Drawing.Size(277, 78);
             this.panel2.TabIndex = 4;
             // 
             // lblTotalFacturado
             // 
             this.lblTotalFacturado.AutoSize = true;
             this.lblTotalFacturado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalFacturado.Location = new System.Drawing.Point(78, 33);
+            this.lblTotalFacturado.Location = new System.Drawing.Point(98, 39);
             this.lblTotalFacturado.Name = "lblTotalFacturado";
-            this.lblTotalFacturado.Size = new System.Drawing.Size(126, 13);
+            this.lblTotalFacturado.Size = new System.Drawing.Size(14, 13);
             this.lblTotalFacturado.TabIndex = 4;
-            this.lblTotalFacturado.Text = "TOTAL FACTURADO";
+            this.lblTotalFacturado.Text = "0";
+            this.lblTotalFacturado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -106,18 +109,19 @@
             this.panel3.Controls.Add(this.label4);
             this.panel3.Location = new System.Drawing.Point(286, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(277, 63);
+            this.panel3.Size = new System.Drawing.Size(277, 78);
             this.panel3.TabIndex = 6;
             // 
             // lblPorCobrar
             // 
             this.lblPorCobrar.AutoSize = true;
             this.lblPorCobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPorCobrar.Location = new System.Drawing.Point(95, 33);
+            this.lblPorCobrar.Location = new System.Drawing.Point(99, 39);
             this.lblPorCobrar.Name = "lblPorCobrar";
-            this.lblPorCobrar.Size = new System.Drawing.Size(88, 13);
+            this.lblPorCobrar.Size = new System.Drawing.Size(14, 13);
             this.lblPorCobrar.TabIndex = 4;
-            this.lblPorCobrar.Text = "POR COBRAR";
+            this.lblPorCobrar.Text = "0";
+            this.lblPorCobrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
@@ -136,18 +140,19 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(569, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(277, 63);
+            this.panel1.Size = new System.Drawing.Size(277, 78);
             this.panel1.TabIndex = 5;
             // 
             // lblVencido
             // 
             this.lblVencido.AutoSize = true;
             this.lblVencido.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVencido.Location = new System.Drawing.Point(111, 33);
+            this.lblVencido.Location = new System.Drawing.Point(111, 39);
             this.lblVencido.Name = "lblVencido";
-            this.lblVencido.Size = new System.Drawing.Size(62, 13);
+            this.lblVencido.Size = new System.Drawing.Size(14, 13);
             this.lblVencido.TabIndex = 4;
-            this.lblVencido.Text = "VENCIDO";
+            this.lblVencido.Text = "0";
+            this.lblVencido.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -186,20 +191,42 @@
             this.dgvFacturas.AllowUserToResizeRows = false;
             this.dgvFacturas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvFacturas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvFacturas.Location = new System.Drawing.Point(27, 179);
+            this.dgvFacturas.Location = new System.Drawing.Point(27, 188);
             this.dgvFacturas.MultiSelect = false;
             this.dgvFacturas.Name = "dgvFacturas";
             this.dgvFacturas.ReadOnly = true;
             this.dgvFacturas.RowHeadersVisible = false;
             this.dgvFacturas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvFacturas.Size = new System.Drawing.Size(846, 407);
+            this.dgvFacturas.Size = new System.Drawing.Size(1108, 407);
             this.dgvFacturas.TabIndex = 15;
+            // 
+            // btnModificarFactura
+            // 
+            this.btnModificarFactura.Location = new System.Drawing.Point(1022, 120);
+            this.btnModificarFactura.Name = "btnModificarFactura";
+            this.btnModificarFactura.Size = new System.Drawing.Size(113, 23);
+            this.btnModificarFactura.TabIndex = 16;
+            this.btnModificarFactura.Text = "Modificar Factura";
+            this.btnModificarFactura.UseVisualStyleBackColor = true;
+            this.btnModificarFactura.Click += new System.EventHandler(this.btnModificarFactura_Click_1);
+            // 
+            // btnEliminarFactura
+            // 
+            this.btnEliminarFactura.Location = new System.Drawing.Point(1022, 149);
+            this.btnEliminarFactura.Name = "btnEliminarFactura";
+            this.btnEliminarFactura.Size = new System.Drawing.Size(113, 23);
+            this.btnEliminarFactura.TabIndex = 17;
+            this.btnEliminarFactura.Text = "Eliminar Factura";
+            this.btnEliminarFactura.UseVisualStyleBackColor = true;
+            this.btnEliminarFactura.Click += new System.EventHandler(this.btnEliminarFactura_Click);
             // 
             // Facturación
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1070, 665);
+            this.ClientSize = new System.Drawing.Size(1167, 625);
+            this.Controls.Add(this.btnEliminarFactura);
+            this.Controls.Add(this.btnModificarFactura);
             this.Controls.Add(this.dgvFacturas);
             this.Controls.Add(this.btnNuevaFactura);
             this.Controls.Add(this.flowLayoutPanel1);
@@ -236,5 +263,7 @@
         private System.Windows.Forms.Label lblTotalFacturas;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvFacturas;
+        private System.Windows.Forms.Button btnModificarFactura;
+        private System.Windows.Forms.Button btnEliminarFactura;
     }
 }

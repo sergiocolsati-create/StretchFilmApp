@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,17 @@ namespace StretchFilmApp
 {
     public partial class TARJETA_MARGEN : UserControl
     {
+        // Campos privados para guardar los datos
+        private string _producto;
+        private string _cliente;
+        private string _minimo;
+        private string _maximo;
+        private string _promedio;
+        private string _vigenciaInicio;
+        private string _vigenciaFin;
+
+        // Evento para notificar a Margenes que se editó un margen
+        public event EventHandler<string[]> MargenEditado;
         public TARJETA_MARGEN()
         {
             InitializeComponent();
@@ -21,48 +33,88 @@ namespace StretchFilmApp
         {
 
         }
-        public void AsignarDatos(string producto, string cliente, string minimo, string maximo, string promedio, string activo, string vigenciaInicio, string vigenciaFin)
+        public void AsignarDatos(string producto, string cliente, string minimo, string maximo, string promedio, string vigenciaInicio, string vigenciaFin)
         {
+            // Guarda en campos privados
+            _producto = producto;
+            _cliente = cliente;
+            _minimo = minimo;
+            _maximo = maximo;
+            _promedio = promedio;
+            _vigenciaInicio = vigenciaInicio;
+            _vigenciaFin = vigenciaFin;
+
+            // Muestra datos
             lblProducto.Text = producto;
             lblCliente.Text = cliente;
             lblMinimo.Text = minimo;
             lblMaximo.Text = maximo;
             lblPromedio.Text = promedio;
-            // 'activo' (el parámetro) es el margen activo, ej "40% máx", no lo usamos para el estado.
-            // En lugar de eso, calculamos estado basado en vigenciaFin.
 
+            // Calcula ESTADO según vigenciaFin
             bool esActivo = false;
-            if (vigenciaFin.Equals("activo", StringComparison.OrdinalIgnoreCase))
+
+            if (vigenciaFin == "activo")
+            {
                 esActivo = true;
+            }
             else
             {
-                // Intentar parsear la fecha fin (formato dd/MM/yyyy)
-                if (DateTime.TryParseExact(vigenciaFin, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out DateTime fechaFin))
+                DateTime fechaFin;
+                if (DateTime.TryParseExact(vigenciaFin, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out fechaFin))
                 {
-                    // Si la fecha fin es mayor o igual a hoy, está activo; si ya pasó, inactivo.
-                    esActivo = fechaFin.Date >= DateTime.Now.Date;
-                }
-                else
-                {
-                    // Si no se pudo parsear, asumimos inactivo o manejas error
-                    esActivo = false;
+                    DateTime hoy = DateTime.Today;
+                    if (fechaFin >= hoy)
+                    {
+                        esActivo = true;
+                    }
+                    else
+                    {
+                        esActivo = false;
+                    }
                 }
             }
 
-            // Asignar texto y color del panel
+            // Muestra estado y da color
             if (esActivo)
             {
                 lblEstado.Text = "ACTIVO";
-                pnlEstado.BackColor = Color.LightGreen;   // Verde claro
+                pnlEstado.BackColor = Color.LightGreen;
             }
             else
             {
                 lblEstado.Text = "INACTIVO";
-                pnlEstado.BackColor = Color.LightGray;    // Gris
+                pnlEstado.BackColor = Color.LightGray;
             }
 
-            // Mostrar rango de vigencia
+            // Muestra rango de vigencia
             lblVigencia.Text = $"{vigenciaInicio} → {vigenciaFin}";
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnEditarMargen_Click(object sender, EventArgs e)
+        {
+            // Abre el formulario para editar con los datos actuales
+            EditarMargen editar = new EditarMargen(_producto, _cliente, _minimo, _maximo, _vigenciaInicio, _vigenciaFin);
+
+            if (editar.ShowDialog() == DialogResult.OK)
+            {
+                string[] nuevosDatos = editar.DatosMargen;
+
+                // Actualiza la tarjeta con los nuevos datos
+                AsignarDatos(nuevosDatos[0], nuevosDatos[1], nuevosDatos[2], nuevosDatos[3],
+                            nuevosDatos[4], nuevosDatos[5], nuevosDatos[6]);
+
+                // Notifica a Margenes para guardar en el archivo
+                if (MargenEditado != null)
+                {
+                    MargenEditado(this, nuevosDatos);
+                }
+            }
         }
     }
 }

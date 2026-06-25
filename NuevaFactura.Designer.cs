@@ -42,13 +42,15 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.dtpVencimiento = new System.Windows.Forms.DateTimePicker();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtRUC = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(44, 148);
+            this.label6.Location = new System.Drawing.Point(44, 180);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(62, 13);
             this.label6.TabIndex = 22;
@@ -56,7 +58,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(201, 301);
+            this.btnCancelar.Location = new System.Drawing.Point(201, 329);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(91, 23);
             this.btnCancelar.TabIndex = 21;
@@ -66,7 +68,7 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(42, 301);
+            this.btnGuardar.Location = new System.Drawing.Point(42, 329);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(91, 23);
             this.btnGuardar.TabIndex = 20;
@@ -78,7 +80,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(44, 224);
+            this.label5.Location = new System.Drawing.Point(44, 252);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(31, 13);
             this.label5.TabIndex = 18;
@@ -98,7 +100,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(44, 110);
+            this.label3.Location = new System.Drawing.Point(44, 108);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 13);
             this.label3.TabIndex = 15;
@@ -126,14 +128,14 @@
             // 
             // txtCliente
             // 
-            this.txtCliente.Location = new System.Drawing.Point(92, 104);
+            this.txtCliente.Location = new System.Drawing.Point(112, 105);
             this.txtCliente.Name = "txtCliente";
             this.txtCliente.Size = new System.Drawing.Size(137, 20);
             this.txtCliente.TabIndex = 24;
             // 
             // txtVendedora
             // 
-            this.txtVendedora.Location = new System.Drawing.Point(112, 143);
+            this.txtVendedora.Location = new System.Drawing.Point(112, 177);
             this.txtVendedora.Name = "txtVendedora";
             this.txtVendedora.Size = new System.Drawing.Size(137, 20);
             this.txtVendedora.TabIndex = 25;
@@ -141,16 +143,16 @@
             // cboTipo
             // 
             this.cboTipo.FormattingEnabled = true;
-            this.cboTipo.Location = new System.Drawing.Point(92, 221);
+            this.cboTipo.Location = new System.Drawing.Point(112, 249);
             this.cboTipo.Name = "cboTipo";
-            this.cboTipo.Size = new System.Drawing.Size(136, 21);
+            this.cboTipo.Size = new System.Drawing.Size(137, 21);
             this.cboTipo.TabIndex = 26;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(44, 186);
+            this.label4.Location = new System.Drawing.Point(44, 216);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 13);
             this.label4.TabIndex = 27;
@@ -158,23 +160,44 @@
             // 
             // txtTotal
             // 
-            this.txtTotal.Location = new System.Drawing.Point(92, 182);
+            this.txtTotal.Location = new System.Drawing.Point(112, 213);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(137, 20);
             this.txtTotal.TabIndex = 28;
             // 
             // dtpVencimiento
             // 
-            this.dtpVencimiento.Location = new System.Drawing.Point(92, 248);
+            this.dtpVencimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpVencimiento.Location = new System.Drawing.Point(112, 276);
             this.dtpVencimiento.Name = "dtpVencimiento";
-            this.dtpVencimiento.Size = new System.Drawing.Size(200, 20);
+            this.dtpVencimiento.Size = new System.Drawing.Size(137, 20);
             this.dtpVencimiento.TabIndex = 29;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(44, 144);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(33, 13);
+            this.label7.TabIndex = 30;
+            this.label7.Text = "RUC:";
+            // 
+            // txtRUC
+            // 
+            this.txtRUC.Location = new System.Drawing.Point(112, 141);
+            this.txtRUC.MaxLength = 11;
+            this.txtRUC.Name = "txtRUC";
+            this.txtRUC.Size = new System.Drawing.Size(137, 20);
+            this.txtRUC.TabIndex = 31;
             // 
             // NuevaFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(346, 371);
+            this.ClientSize = new System.Drawing.Size(337, 371);
+            this.Controls.Add(this.txtRUC);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.dtpVencimiento);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.label4);
@@ -212,5 +235,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.DateTimePicker dtpVencimiento;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtRUC;
     }
 }
