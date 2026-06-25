@@ -34,6 +34,7 @@ namespace StretchFilmApp
             ColorearFilas();
 
             pnlNueva.Visible = false;
+            pnlNueva.AgregarBotonCerrar(LimpiarCampos);
             btnNuevaCotizacion.Click += (s, e) => pnlNueva.Visible = !pnlNueva.Visible;
             btnLimpiar.Click += (s, e) => LimpiarCampos();
             btnGuardar.Click += (s, e) => GuardarCotizacion();

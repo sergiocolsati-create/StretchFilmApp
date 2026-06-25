@@ -94,6 +94,7 @@
     <Compile Include="NuevaFactura.Designer.cs">
       <DependentUpon>NuevaFactura.cs</DependentUpon>
     </Compile>
+    <Compile Include="Panelextensiones.cs" />
     <Compile Include="Productos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +141,12 @@
       <DependentUpon>Usuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Utilitario.cs" />
+    <EmbeddedResource Include="Adquisición.resx">
+      <DependentUpon>Adquisición.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cobranza.resx">
       <DependentUpon>Cobranza.cs</DependentUpon>
     </EmbeddedResource>
@@ -184,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TARJETA-MARGEN.resx">
       <DependentUpon>TARJETA-MARGEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios.resx">
+      <DependentUpon>Usuarios.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

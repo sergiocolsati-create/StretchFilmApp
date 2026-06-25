@@ -67,11 +67,12 @@ namespace StretchFilmApp
             Theme.EstilizarGrid(dgvProveedores);
             CargarCombos();
             AsegurarArchivoEjemplo();
-            Utilitario.CargarArchivoTXT(ruta, datos, dgvProveedores);   // 👈 movido aquí
+            Utilitario.CargarArchivoTXT(ruta, datos, dgvProveedores);   
             ColorearEstados();
-            ActualizarContador();                                       // 👈 movido aquí
+            ActualizarContador();                                       
 
             pnlNueva.Visible = false;
+            pnlNueva.AgregarBotonCerrar(LimpiarCampos);
             btnNuevoProveedor.Click += (s, e) => pnlNueva.Visible = !pnlNueva.Visible;
             btnLimpiar.Click += (s, e) => LimpiarCampos();
             btnGuardar.Click += (s, e) => GuardarProveedor();
