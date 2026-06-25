@@ -1,0 +1,6 @@
+#486c6,RucosSAc,Stretch Film 25µm x 500m – Uso diario,1,S/.40.00,25.0%,S/.8,APROBADA,20/5/2026
+#48fbf,Distribuidora Lima Norte S.A.C.,Stretch Film 20µm alta resistencia,60,S/.6.25,25.0%,S/.75,APROBADA,31/5/2026
+#ec048,Test S.A.C,Stretch Film 25µm carga paletizada,120,S/.35.63,25.0%,S/.855,APROBADA,17/5/2026
+#0bd2d,Empaques Perú E.I.R.L.,Stretch Film Industrial alta tracción,200,S/.35.63,25.0%,S/.1425,APROBADA,17/5/2026
+#43eff,Exportaciones del Pacífico S.A.C.,Stretch Film 25µm x 500m,40,S/.6.25,25.0%,S/.50,APROBADA,30/5/2026
+#b7019,Industrias Textiles Andinas S.R.L.,Stretch Film 25µm,30,S/.35.63,25.0%,S/.214,APROBADA,17/5/2026
