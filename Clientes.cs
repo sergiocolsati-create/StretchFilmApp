@@ -197,28 +197,42 @@ namespace StretchFilmApp
 
         /// <summary>
         /// Reconstruye la grilla principal aplicando el filtro de estado seleccionado.
+        /// Se llama tanto al cargar el form como cada vez que el usuario cambia el ComboBox.
         /// </summary>
         private void ConstruirTabla()
         {
+            // Limpia todas las filas visuales actuales para redibujar desde cero
             dgvClientes.Rows.Clear();
 
+            // Decide qué registros mostrar según el filtro activo:
+            // - "Todos"  → usa la lista completa sin ningún criterio
+            // - cualquier otro valor → filtra con LINQ comparando c[3] (columna Estado)
             var filtrados = filtroActual == "Todos"
                 ? datos
                 : datos.Where(c => c.Length >= 4 && c[3] == filtroActual).ToList();
+            //                     ↑ evita crash si una línea del TXT tiene menos de 4 columnas
 
+            // Recorre solo los registros que pasaron el filtro
             foreach (string[] c in filtrados)
             {
+                // Seguridad: ignora líneas incompletas del archivo (necesita mínimo 6 columnas)
                 if (c.Length < 6) continue;
+
+                // Agrega una fila vacía y obtiene su índice para luego rellenarla
                 int indice = dgvClientes.Rows.Add();
                 DataGridViewRow fila = dgvClientes.Rows[indice];
-                fila.Cells["colEmpresa"].Value = c[0];
-                fila.Cells["colRuc"].Value = c[1];
-                fila.Cells["colTipo"].Value = c[2];
-                fila.Cells["colEstadoTabla"].Value = c[3];
-                fila.Cells["colSolicitudes"].Value = c[4];
+
+                // Mapea cada posición del array a su columna correspondiente en la grilla
+                fila.Cells["colEmpresa"].Value = c[0]; // nombre de la empresa
+                fila.Cells["colRuc"].Value = c[1]; // RUC
+                fila.Cells["colTipo"].Value = c[2]; // Contado / Crédito
+                fila.Cells["colEstadoTabla"].Value = c[3]; // Activo / Inactivo / Pendiente
+                fila.Cells["colSolicitudes"].Value = c[4]; // número de pedidos
+                                                           // Si el contacto está vacío, muestra "—" en lugar de una celda en blanco
                 fila.Cells["colContacto"].Value = string.IsNullOrWhiteSpace(c[5]) ? "—" : c[5];
             }
 
+            // Tras poblar la grilla, aplica colores según el estado y tipo de cada fila
             ColorearEstadosTabla();
         }
 
