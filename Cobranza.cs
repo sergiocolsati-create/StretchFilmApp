@@ -32,7 +32,7 @@ namespace StretchFilmApp
             }
 
             flpCobranza.Controls.Clear();
-
+            string[] lineas = File.ReadAllLines(ruta);
 
             int enCobranza = 0, vencidas = 0;
             decimal totalPorCobrar = 0;

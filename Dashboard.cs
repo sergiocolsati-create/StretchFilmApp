@@ -12,7 +12,7 @@ namespace StretchFilmApp
 {
     public partial class Dashboard : Form
     {
-        public Dashboard()
+        public Dashboard() 
         {
             InitializeComponent();
         }

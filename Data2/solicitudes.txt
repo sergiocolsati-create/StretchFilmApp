@@ -1,0 +1,7 @@
+#5f0373,Nueva Empresa S.A.C.,Stretch Film 25µm estándar,300,EMAIL,EN_PROCESO,18/5/2026
+#a15b48,Exportaciones del Pacífico S.A.C.,Stretch Film Negro 30µm,80,WHATSAPP,PENDIENTE,18/5/2026
+#99cd1e,Test S.A.C,Stretch Film Industrial 23µm,150,TELEFONO,PENDIENTE,18/5/2026
+#6e135b,Exportaciones del Pacífico S.A.C.,Stretch Film 25µm x 500m,40,WEB,PENDIENTE,17/5/2026
+#b0efb8,Corporación Almacenes S.A.,Stretch Film Industrial alta tracción,200,EMAIL,PENDIENTE,17/5/2026
+#a4b573,Empaques Perú E.I.R.L.,Stretch Film 20µm alta resistencia,60,PRESENCIAL,PENDIENTE,17/5/2026
+#162209,Distribuidora Lima Norte S.A.C.,Stretch Film 25µm estándar,300,EMAIL,EN_PROCESO,17/5/2026
