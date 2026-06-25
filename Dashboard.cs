@@ -12,7 +12,7 @@ namespace StretchFilmApp
 {
     public partial class Dashboard : Form
     {
-        public Dashboard()
+        public Dashboard() 
         {
             InitializeComponent();
         }
@@ -44,7 +44,7 @@ namespace StretchFilmApp
 
         private void bttnAdqui_Click(object sender, EventArgs e)
         {
-            Adquisición frmAdquisición = new Adquisición();
+            Adquisicion frmAdquisición = new Adquisicion();
             frmAdquisición.ShowDialog();
         }
 

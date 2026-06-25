@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace StretchFilmApp
 {
+    /// <summary>
+    /// Formulario que muestra los márgenes de precio como tarjetas
+    /// y permite registrar nuevos márgenes desde un panel inferior.
+    /// </summary>
     public partial class Margenes : Form
     {
         // Lista para almacenar los márgenes
@@ -20,6 +19,14 @@ namespace StretchFilmApp
         public Margenes()
         {
             InitializeComponent();
+
+            pnlNueva.Visible = false;
+            btnNuevoMargen.Click += (s, e) => pnlNueva.Visible = !pnlNueva.Visible;
+            btnLimpiar.Click += (s, e) => LimpiarCampos();
+            btnGuardar.Click += (s, e) => GuardarMargen();
+
+            cmbEstado.Items.AddRange(new object[] { "Activo", "Inactivo" });
+            cmbEstado.SelectedIndex = 0;
         }
 
         private void Margenes_Load(object sender, EventArgs e)

@@ -158,6 +158,7 @@
     <Compile Include="TARJETA-MARGEN.Designer.cs">
       <DependentUpon>TARJETA-MARGEN.cs</DependentUpon>
     </Compile>
+    <Compile Include="Theme.cs" />
     <Compile Include="Usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,8 +166,17 @@
       <DependentUpon>Usuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Utilitario.cs" />
+    <EmbeddedResource Include="Adquisición.resx">
+      <DependentUpon>Adquisición.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cobranza.resx">
       <DependentUpon>Cobranza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cotizaciones.resx">
+      <DependentUpon>Cotizaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
@@ -205,14 +215,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Proveedores.resx">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RegistrarPago.resx">
       <DependentUpon>RegistrarPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Solicitudes.resx">
+      <DependentUpon>Solicitudes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TARJETA-COBRANZA.resx">
       <DependentUpon>TARJETA-COBRANZA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TARJETA-MARGEN.resx">
       <DependentUpon>TARJETA-MARGEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios.resx">
+      <DependentUpon>Usuarios.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -238,6 +257,7 @@
     <Content Include="Data2\pagos.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Data2\solicitudes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace StretchFilmApp
@@ -40,6 +38,9 @@ namespace StretchFilmApp
             MessageBox.Show($"Se cargaron {listaDatos.Count} registros a la lista.");
         }
 
+        /// <summary>
+        /// Guarda la lista en el TXT usando el separador configurado.
+        /// </summary>
         public static void GuardarArchivoTXT(string ruta, List<string[]> listaDatos)
         {
             try
@@ -60,6 +61,49 @@ namespace StretchFilmApp
             {
                 MessageBox.Show("Error al guardar el archivo.");
             }
+        }
+
+        /// <summary>
+        /// Extrae los datos visibles de la grilla (ignorando botones) a una lista
+        /// lista para pasar a GuardarArchivoTXT.
+        /// </summary>
+        public static List<string[]> LeerGrilla(DataGridView grilla)
+        {
+            var lista = new List<string[]>();
+            foreach (DataGridViewRow fila in grilla.Rows)
+            {
+                if (fila.IsNewRow) continue;
+
+                var campos = new List<string>();
+                foreach (DataGridViewColumn col in grilla.Columns)
+                {
+                    if (!EsColumnaDeDatos(col)) continue;
+                    campos.Add(fila.Cells[col.Index].Value?.ToString() ?? "");
+                }
+                lista.Add(campos.ToArray());
+            }
+            return lista;
+        }
+
+        // ---- Privados ----
+
+        private static void LlenarFila(DataGridViewRow fila, string[] datos)
+        {
+            int campo = 0;
+            foreach (DataGridViewColumn col in fila.DataGridView.Columns)
+            {
+                if (campo >= datos.Length) break;
+                if (!EsColumnaDeDatos(col)) continue;
+                fila.Cells[col.Index].Value = datos[campo];
+                campo++;
+            }
+        }
+
+        private static bool EsColumnaDeDatos(DataGridViewColumn col)
+        {
+            return !(col is DataGridViewButtonColumn
+                  || col is DataGridViewCheckBoxColumn
+                  || col is DataGridViewImageColumn);
         }
     }
 }

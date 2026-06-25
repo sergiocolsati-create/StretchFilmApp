@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
@@ -11,6 +8,11 @@ using System.Windows.Forms;
 
 namespace StretchFilmApp
 {
+    /// <summary>
+    /// Control de usuario (tarjeta visual) que muestra el margen de precio
+    /// pactado para un producto y cliente específicos: rango mínimo/máximo,
+    /// promedio, estado (Activo/Inactivo) y período de vigencia.
+    /// </summary>
     public partial class TARJETA_MARGEN : UserControl
     {
         // Campos privados para guardar los datos
@@ -29,9 +31,13 @@ namespace StretchFilmApp
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Evento Load del control. No requiere lógica adicional: los datos
+        /// se inyectan explícitamente desde <see cref="Margenes.CargarMargenesDesdeTXT"/>
+        /// a través de <see cref="AsignarDatos"/>.
+        /// </summary>
         private void TARJETA_MARGEN_Load(object sender, EventArgs e)
         {
-
         }
         public void AsignarDatos(string producto, string cliente, string minimo, string maximo, string promedio, string vigenciaInicio, string vigenciaFin)
         {
